@@ -6,7 +6,7 @@ Based on DevOps concept to help developers and operators to better develop, depl
 To help enterprises standardize the design, development, testing, operation and continuous improvement of Microservice applications.
 
 Please see below for descriptions of each component:
-1. **IAM**: Identify&Access Management, Project Management, Multi-tenant, LDAP.
+1. **IAM**: Identify&Access management, project management, multi-tenant, LDAP.
 2. **DevOps Suite**
 	- **Requirement&Planning Management**: User Story Map, Sprint management, Kanban management.
 	- **Development Management**: Environment management, codebase repository, continuous integration, continuous release.
