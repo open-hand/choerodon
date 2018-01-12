@@ -6,14 +6,15 @@ Based on DevOps concept to help developers and operators to better develop, depl
 To help enterprises standardize the design, development, testing, operation and continuous improvement of Microservice applications.
 
 Please see below for descriptions of each component:
-1. **DevOps Suite**
+1. **IAM**: Identify&Access Management, Project Management, Multi-tenant, LDAP.
+2. **DevOps Suite**
 	- **Requirement&Planning Management**: User Story Map, Sprint management, Kanban management.
 	- **Development Management**: Environment management, codebase repository, continuous integration, continuous release.
 	- **Continuous Deployment**: API gateway, dynamic domain, resource management, Gray release.
 	- **Monitoring**: distributed tracing, metrics and alerting.
-2. **Microservices application**: microservices development, testing, deployment and monitoring applications.
-3. **Mobile application**: Mobile App Portal and backend development, testing, deployment and monitoring.
-4. **Intelligent Insight**: multi-dimensional and multi-view display data, such as the combined view, the pipeline view, product view and infrastructure view.
+3. **Microservices application**: microservices development, testing, deployment and monitoring applications.
+4. **Mobile application**: Mobile App Portal and backend development, testing, deployment and monitoring.
+5. **Intelligent Insight**: multi-dimensional and multi-view display data, such as the combined view, the pipeline view, product view and infrastructure view.
 
 We are in the process of moving Choerodon backend code from internal repositories to GitHub.
 
