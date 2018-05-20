@@ -70,7 +70,7 @@ This repository contains the source code for Choerodon documentation. If you're 
 - [choerodon-front-devops](https://github.com/choerodon/choerodon-front-devops.git) - DevOps Front is the core front service of Choerodon. The service is responsible for all front pages of continuous delivery and providing users with a better user experience through rich display.
 - [devops-service](https://github.com/choerodon/devops-service.git) - DevOps Service is the core service of Choerodon. Integrated several open source tools to automate the process of planning, coding, building, testing, and deployment, operation, monitoring.
 - [gitlab-service](https://github.com/choerodon/gitlab-service.git) - Gitlab Service is responsible for establishing communication with GitLab, handling GitLab related logic and forwarding it to other services.
-- [env-agent](https://github.com/choerodon/env-agent.git) - The environment client connects to the choerodon platform through websocket.
+- [choerodon-agent](https://github.com/choerodon/choerodon-agent.git) - The environment client connects to the choerodon platform through websocket.
 
 - [zipkin-ui](https://github.com/choerodon/zipkin-ui.git) - zipkin UI Application.
 - [zipkin-collector](https://github.com/choerodon/zipkin-collector.git) - Zipkin Call chain collector. Read the Zipkin call information from the Kafka, store the call information in the Elasticsearch, and facilitate the Zipkin front-end display.
