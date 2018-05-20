@@ -52,7 +52,7 @@ This repository contains the source code for Choerodon documentation. If you're 
 - [api-gateway](https://github.com/choerodon/api-gateway.git) - Request routing forwarding 
 - [register-server](https://github.com/choerodon/go-register-server.git) - Microservice registry center
 - [config-server](https://github.com/choerodon/config-server.git) - A configuration center for unified management of service configuration files
-- [mamager-service](https://github.com/choerodon/manager-service.git) - Manage the configuration of all services, gateway routing, Swagger documents
+- [manager-service](https://github.com/choerodon/manager-service.git) - Manage the configuration of all services, gateway routing, Swagger documents
 - [gateway-helper](https://github.com/choerodon/gateway-helper.git) - Permissions check, current limiting
 - [oauth-server](https://github.com/choerodon/oauth-server.git) - Authentication
 - [eureka-server](https://github.com/choerodon/eureka-server.git) - Locally initiated registration services 
@@ -74,10 +74,9 @@ This repository contains the source code for Choerodon documentation. If you're 
 
 ## Contribute
 
-We welcome your input! If you have feedback, please [submit an issue](https://github.com/choerodon/choerodon/issues). If you'd like to participate in development, please read the [documentation of contribution](contributing.md) and submit a pull request.
+We welcome your input! If you have feedback, please [submit an issue](https://github.com/choerodon/choerodon/issues). If you'd like to participate in development, please read the [documentation of contribution](CONTRIBUTING.md) and submit a pull request.
 
 ## Support
 
-If you have any questions and need our support, [reach out to us one way or another]
-(http://choerodon.io/zh/community/).
+If you have any questions and need our support, [reach out to us one way or another](http://choerodon.io/zh/community/).
 
