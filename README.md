@@ -14,13 +14,13 @@ Choerodon provides:
   
 - **Agile** - Choerodon provides a set of tools to help users manage the flow of user value in an agile manner which consists of story map, user story, sprint, kanban.
 
-- [**Development Pipeline**](#) - Guided by the concept of DevOps, using Gitlab-CI as a continuous integration tool, combined with the Gitflow branch management model to provide continuous integration of the pipeline.
+- [**Development Pipeline**](#http://choerodon.io/zh/docs/user-guide/assembly-line/) - Guided by the concept of DevOps, using Gitlab-CI as a continuous integration tool, combined with the Gitflow branch management model to provide continuous integration of the pipeline.
  
-- [**Deployment Pipeline**](#) - With the help of the Choerodon, users can easily manage a variety of application services that use the development and deployment of Choerodon.
+- [**Deployment Pipeline**](#http://choerodon.io/zh/docs/user-guide/deploy/) - With the help of the Choerodon, users can easily manage a variety of application services that use the development and deployment of Choerodon.
 
-- [**Operation Management**](#) - Choerodon provides a complete set of operational management tools to monitor development indicators, server logs, application system logs, and micro service call chains.
+- [**Operation Management**](#http://choerodon.io/zh/docs/user-guide/operating-manage/) - Choerodon provides a complete set of operational management tools to monitor development indicators, server logs, application system logs, and micro service call chains.
 
-- [**Microservice Development**](#) - Choerodon provides a complete microservice development framework of Spring Cloud-based,with this development framework user can easily build application services.
+- [**Microservice Development**](#http://choerodon.io/zh/docs/development-guide/) - Choerodon provides a complete microservice development framework of Spring Cloud-based,with this development framework user can easily build application services.
 
 Also, you can view the [screenshots of Choerodon](SCREENSHOT.md) to have a most intuitive understanding of Choerodon, and you can visit the website of Choerodon [choerodon.io](http://choerodon.io/)
 
