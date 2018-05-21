@@ -48,7 +48,7 @@ The ROADMAP is a list of product development plans that the core development tea
 
 ## Microservice development
 - [ ] Microservice development platform support, simplify service development, operation, deployment
-- [ ] Add service mesh support, such as istio
+- [ ] Add service mesh support, such as Conduit
 - [ ] Service Gateway Performance Optimization
 - [ ] Microservice management
   - [ ] Dependency
