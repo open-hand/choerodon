@@ -1,4 +1,5 @@
-# ROADMAP
+# ROADMAP [中文版](./zh/ROADMAP.md)
+
 The ROADMAP is a list of product development plans that the core development team anticipates of Choerodon. It details the future's direction of Choerodon, but may change over time. We hope that you can learn about our plans and Vision through ROADMAP, if you have any better ideas, welcome to [ISSUE](https://github.com/choerodon/choerodon/issues).
 
 ## Platform foundation
