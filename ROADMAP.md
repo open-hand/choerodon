@@ -34,9 +34,9 @@ The ROADMAP is a list of product development plans that the core development tea
 
 ## Development pipeline
 
-- [ ] Custom CI pipeline
+- [x] Custom CI pipeline
 - [ ] Issue and Continuous Integration Integration
-- [ ] CI pipeline visualization
+- [x] CI pipeline visualization
 - [ ] Static code inspection
 
 
@@ -76,8 +76,8 @@ The ROADMAP is a list of product development plans that the core development tea
 - [ ] Alarm Management
 - [ ] View the microservice call chain
 - [ ] View the API call
-- [ ] View the container log
-- [ ] View the instance log 
+- [x] View the container log
+- [x] View the instance log 
 
 
 ## Knowledge management
