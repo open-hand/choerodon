@@ -12,21 +12,21 @@ The ROADMAP is a list of product development plans that the core development tea
 
 ## Scrum management
 
-- [ ] Backlog Workbench
-- [ ] Issue Workbench
+- [x] Backlog Workbench
+- [x] Issue Workbench
 - [ ] User story management
-  - [ ] User story
+  - [x] User story
   - [ ] User story map
 - [ ] Scrum sprint management
   - [ ] Sprint chart analysis
-  - [ ] Kanban Management
+  - [x] Kanban Management
   - [ ] Multi-person sharing mode
-  - [ ] Sprint mission
-    - [ ] Task review
+  - [x] Sprint task
+    - [x] Task comment
 - [ ] ScrumBoard enhancement
   - [ ] Cross-functional Flowchart show
   - [ ] Workday management
-- [ ] Work log record development process
+- [x] Work log record development process
 - [ ] Automatically generate change log
 - [ ] Analysis report
 - [ ] Kanban management
