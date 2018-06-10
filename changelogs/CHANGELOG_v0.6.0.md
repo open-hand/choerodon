@@ -1,6 +1,6 @@
 # Changelog [中文版](./CHANGELOG_v0.6.0_zh.md)
 
-All notable changes to **Choerodon framework**, **DevOps** and **Agile** will be documented in this file.
+All notable changes to **Choerodon framework**, **Development pipeline and Deployment pipeline** and **Agile** will be documented in this file.
 
 
 ## Choerodon framework
@@ -91,7 +91,7 @@ All notable changes to **Choerodon framework**, **DevOps** and **Agile** will be
 
 - Clean up redundant code
 
-## Choerodon DevOps
+## Development pipeline and Deployment pipeline
 ### [0.6.0] - 2018-06-10
 ### Added
 - `Release management` section, including `application release` and `application market`. 
@@ -127,7 +127,7 @@ All notable changes to **Choerodon framework**, **DevOps** and **Agile** will be
 - Orgnization admin not in Gitlab template group.
 - Some other bugs.
 
-## Choerodon Agile
+## Agile
 ## [0.5.0] - 2018-06-10
 ### Added
 - In `issue list managerment` interface. Users can query and sort issue by dimensions such as `type`, `number`, `summary`, `priority` and `status`.
