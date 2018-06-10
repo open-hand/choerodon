@@ -1,6 +1,6 @@
 # Changelog [中文版](./CHANGELOG_v0.6.0_zh.md)
 
-All notable changes to **Choerodon framework**, **Development pipeline and Deployment pipeline** and **Agile** will be documented in this file.
+All notable changes to **Choerodon framework**, **Continuous delivery** and **Agile** will be documented in this file.
 
 
 ## Choerodon framework
@@ -91,7 +91,7 @@ All notable changes to **Choerodon framework**, **Development pipeline and Deplo
 
 - Clean up redundant code
 
-## Development pipeline and Deployment pipeline
+## Continuous delivery
 ### [0.6.0] - 2018-06-10
 ### Added
 - `Release management` section, including `application release` and `application market`. 
