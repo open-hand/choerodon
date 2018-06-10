@@ -14,9 +14,9 @@ Choerodon provides:
   
 - **Agile** - Choerodon provides a set of tools to help users manage the flow of user value in an agile manner which consists of story map, user story, sprint, kanban.
 
-- [**Development Pipeline**](http://choerodon.io/zh/docs/user-guide/assembly-line/) - Guided by the concept of DevOps, using Gitlab-CI as a continuous integration tool, combined with the Gitflow branch management model to provide continuous integration of the pipeline.
+- [**Development Pipeline**](http://choerodon.io/zh/docs/user-guide/development-pipeline/) - Guided by the concept of DevOps, using Gitlab-CI as a continuous integration tool, combined with the Gitflow branch management model to provide continuous integration of the pipeline.
  
-- [**Deployment Pipeline**](http://choerodon.io/zh/docs/user-guide/deploy/) - With the help of the Choerodon, users can easily manage a variety of application services that use the development and deployment of Choerodon.
+- [**Deployment Pipeline**](http://choerodon.io/zh/docs/user-guide/deployment-pipeline/) - With the help of the Choerodon, users can easily manage a variety of application services that use the development and deployment of Choerodon.
 
 - [**Operation Management**](http://choerodon.io/zh/docs/user-guide/operating-manage/) - Choerodon provides a complete set of operational management tools to monitor development indicators, server logs, application system logs, and micro service call chains.
 
