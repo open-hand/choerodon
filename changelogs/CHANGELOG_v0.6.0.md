@@ -1,5 +1,5 @@
 # Changelog
-All notable changes to Choerodon framework, DevOps and Agile will be documented in this file.
+All notable changes to `Choerodon framework`, `DevOps` and `Agile` will be documented in this file.
 
 ## Choerodon framework
 ### [0.6.0] - 2018-06-10
