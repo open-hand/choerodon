@@ -2,6 +2,7 @@
 
 All notable changes to **Choerodon framework**, **DevOps** and **Agile** will be documented in this file.
 
+
 ## Choerodon framework
 ### [0.6.0] - 2018-06-10
 ### Added
@@ -10,6 +11,7 @@ All notable changes to **Choerodon framework**, **DevOps** and **Agile** will be
 
 - Added `root administrators` to manage the settings of the platform and all organizations and projects in the platform.
 - Added new users to modify `avatars`, `usernames`, and `emails`. The user's `personal center` page is optimized.
+
 - Added `microservice routing management` function for visual management of backend routing of microservices.
 - `LDAP` supports custom user attributes, adds page test connectivity, and synchronizes user functionality. Currently, it supports both `OpenLdap` and `Microsoft Active Directory` directory types.
 - The page adds a delete confirmation prompt to reduce the chance of accidental deletion.
@@ -86,6 +88,7 @@ All notable changes to **Choerodon framework**, **DevOps** and **Agile** will be
 
 #### boot0.6.0
 
+
 - Clean up redundant code
 
 ## Choerodon DevOps
@@ -149,4 +152,5 @@ All notable changes to **Choerodon framework**, **DevOps** and **Agile** will be
 - `Version detail` interface. Users can view all the issues in this version and all related issues in this interface.
 - `Version release` functionality. Users can `publish version` and choose to migrate unfinished issues to other unreleased versions.
 - `Component management` view functionality. Users can create, edit and delete a component. It also supports multi-field sorting and filtering functions in list view.
+
 - Users can define the default handler strategy using template.
