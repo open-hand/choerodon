@@ -1,5 +1,6 @@
-# Changelog
-All notable changes to Choerodon framework, DevOps and Agile will be documented in this file.
+# Changelog [中文版](./CHANGELOG_v0.6.0_zh.md)
+
+All notable changes to **Choerodon framework**, **DevOps** and **Agile** will be documented in this file.
 
 ## Choerodon framework
 ### [0.6.0] - 2018-06-10
@@ -7,29 +8,85 @@ All notable changes to Choerodon framework, DevOps and Agile will be documented 
 
 #### 0.6.0 Significant added features
 
-- Added root administrators to manage the settings of the platform and all organizations and projects in the platform.
-- Added new users to modify avatars, usernames, and emails. The user's personal center page is optimized.
-- Added microservice routing management function for visual management of backend routing of microservices.
-- LDAP supports custom user attributes, adds page test connectivity, and synchronizes user functionality. Currently, it supports both OpenLdap and Microsoft Active Directory directory types.
+- Added `root administrators` to manage the settings of the platform and all organizations and projects in the platform.
+- Added new users to modify `avatars`, `usernames`, and `emails`. The user's `personal center` page is optimized.
+- Added `microservice routing management` function for visual management of backend routing of microservices.
+- `LDAP` supports custom user attributes, adds page test connectivity, and synchronizes user functionality. Currently, it supports both `OpenLdap` and `Microsoft Active Directory` directory types.
 - The page adds a delete confirmation prompt to reduce the chance of accidental deletion.
 - The code library adds automation scripts for circle ci.
-- The authentication service adds redis as a storage login session, which is used to guarantee the user session when the authentication service starts multiple instances.
+- The `authentication service` adds redis as a storage login session, which is used to guarantee the user session when the authentication service starts multiple instances.
 
 #### Control 0.3.1
 
-- New Select component loading property, can be set to loading state when obtaining asynchronous data.
-- Added IconSelect component, drop-down page showing all icon icons.
+- New `Select` component loading property, can be set to loading state when obtaining asynchronous data.
+- Added `IconSelect` component, drop-down page showing all icon icons.
 
 #### boot0.6.0
 
-- Added port configuration, default 9090.
-- Added 403 pages, Page component added service attribute, Function same Permission, No privilege displayed 403 page.
+- Added port configuration, default `9090`.
+- Added `403` pages, Page component added service attribute, Function same Permission, No privilege displayed 403 page.
 
 #### Framework dependency 0.5.1
 
-- Added choerodon-websocket-helper dependency, which was updated from choerodon-socket-helper. It mainly provides message route forwarding for Websocket, and implements command-interaction between devops-service and choerodon-agent.
-- Added the choerodon-gitlab4j-api dependency, which mainly modifies the gitlab api java client to support the interaction between gitlab-service and gitlab.
+- Added `choerodon-websocket-helper` dependency, which was updated from `choerodon-socket-helper`. It mainly provides message route forwarding for Websocket, and implements command-interaction between `devops-service` and `choerodon-agent`.
+- Added the `choerodon-gitlab4j-api` dependency, which mainly modifies the gitlab api java client to support the interaction between gitlab-service and gitlab.
 
+### Changed
+
+#### 0.6.0 Significant changed features
+
+- The platform permission check logic is perfect.
+- The registry supports service registration for the specified namespace.
+- Menu icon replacement, text spacing adjustment.
+- Uniform spacing of page icons, adding reminder texts, and button operation prompting copy optimization.
+
+#### Control 0.3.1
+
+- The `Collapse` component modifies the expand and collapse icon styles on the header.
+- The `Modal` component adjusts the `footer's button` style. When the button's `loading` state is determined, the cancel button is disabled.
+- Table component adjustment, all drop-down boxes inside the component pop up container changes.
+
+#### boot0.6.0
+
+- boot componentized and migrated to npmjs.
+- Some component style adjustments.
+
+#### Framework dependency 0.5.1
+
+- `choerodon-starter-tool` sets `is_built_in` to true when routing information is initialized, which means `built-in services`.
+- The `customUserDetails` of `choerodon-starter-core` adds the `is_admin` field.
+
+### Fixed
+
+#### 0.6.0 Significant fixed features
+
+- When creating a project under a repair organization, the project code is not unique within the organization, but is a globally unique issue.
+- Fixes the issue of removing the user's existing role tag when repairing new role assignments.
+- Fixed an issue where the registration center sent an exception and the kafka message did not have a timestamp.
+- Fixed an issue where the `manager-service` sometimes failed to refresh.
+- Fixed an issue where the menu configuration function under Firefox cannot be used.
+- Fixed the problem that members could not be viewed by role in the role assignment.
+- Remove the incorrect permission code from the page. This bug will cause the page to fail to have proper permissions.
+- In the repair menu configuration, when one self-made directory is placed in another self-directory, the two directories disappear.
+
+#### boot0.6.0
+
+- Fixed issues with Permission and Action components sometimes not working.
+
+#### Framework dependency 0.5.1
+
+- `choerodon-starter-mybatis-mapper` Fixes an exception that occurs when a selectOne query condition matches more than one piece of data.
+
+### Removed
+
+#### 0.6.0 Significant removed features
+
+- Do not remove the word limit in the lower right corner of the page input box.
+- The page input box removes auto-fill.
+
+#### boot0.6.0
+
+- Clean up redundant code
 
 ## Choerodon DevOps
 ### [0.6.0] - 2018-06-10
@@ -70,26 +127,26 @@ All notable changes to Choerodon framework, DevOps and Agile will be documented 
 ## Choerodon Agile
 ## [0.5.0] - 2018-06-10
 ### Added
-- In issue list managerment interface.Users can query and sort issue by dimensions such as type, number, summary, priority and status.
-- In issue detail management view.Users can paste static and dynamic images in the description of the issue detail,and large-screen view of the picture is supported.At the same time, the file of the issue and other attachments can be uploaded in the issue detail.
-- Time estimation control functionality enables users to control the progress of this issue by using story points and remaining time.
-- The multi-dimensional issue management functionality. Users can to manage issues in compinents,fixed versions,labels, epics and sprints.
-- The multi-dimensional issue management functionality.Management types include five categories: epic, story, task, bug and sub-task.
-- Issue comment functionality. Users can comment and facilitate the discussion issue in issue details.
-- Issue log recording functionality.Users can dynamically record the progress of the issue processing, and deduct the remaining time of the issue according to the time recorded in the log.
-- Issue sub-task functionality.Users can create and manage sub-tasks in the detail of the issue. Issues can be managed in a more detailed way by splitting into sub-tasks.
-- Issue quick creation functionality.To create an issue,users only need to select the corresponding type and fill out the issue brief information.
-- Sprint management functionality.Users can create, enable,close current active sprint.Also you can define the sprint start and end time,name and other information.You can view in the sprint detail the current assignment of the issue among corresponding sprint memers and the corresponding remaining time.
-- Problem scheduling functionality.Users can drag and drop the issues in the workbench to the required epic or version through single-selection and multi-selection drag and drop. You can also drag and drop into a certain sprint, reflected in the sort of position priority. It also supports issue quick creation in to-do list view.
-- Epic management functionality.Users can quickly create epics on the workbench.You can drag and drop the epic of the issue and filter issues by epic.
-- Version management functionality. Users can quickly create a version on the workbench.You can drag and drop the version of the issue and at the same time you can filter issues by version as well.
-- Multi board management functionality.Users can create multiple boards. Different boards can define different lane processes and split project management into multiple board processes according to different requirements.
-- Board configuration management.Users can define board flow according to their own needs, swim lane status,etc.
-- Active sprint issue filtering functionality.Currently support issue filtering in two dimensions including “my issues” and “user stories”.
-- Active sprint time tracking functionality.Users can track the progress of the current issue and the remaining time of the sprint on board.
-- Active sprint issue management functionality.Users can drag and drop the issue on board.The status of the issue will be based on the operation of the corresponding flow.It also supports the sub task of lane management.
-- Version management list view functionality.Users can view version management in the form of table,edit, delete, publish and cancel publish version.
-- Version detail interface.Users can view all the issues in this version and all related issues in this interface.
-- Version release functionality.Users can publish version and choose to migrate unfinished issues to other unreleased versions.
-- Component management view functionality.Users can create, edit and delete a component.It also supports multi-field sorting and filtering functions in list view.
+- In `issue list managerment` interface. Users can query and sort issue by dimensions such as `type`, `number`, `summary`, `priority` and `status`.
+- In `issue detail management` view. Users can paste static and dynamic images in the description of the issue detail,and large-screen view of the picture is supported.At the same time, the file of the issue and other attachments can be uploaded in the issue detail.
+- `Time estimation control` functionality enables users to control the progress of this issue by using story points and remaining time.
+- The `multi-dimensional issue management` functionality. Users can to manage issues in compinents, `fixed versions`, `labels`, `epics` and `sprints`.
+- The `multi-dimensional issue management` functionality. Management types include five categories: epic, story, task, bug and sub-task.
+- `Issue comment` functionality. Users can comment and facilitate the discussion issue in issue details.
+- `Issue log recording` functionality. Users can dynamically record the progress of the issue processing, and deduct the remaining time of the issue according to the time recorded in the log.
+- `Issue sub-task` functionality.Users can create and manage sub-tasks in the detail of the issue. Issues can be managed in a more detailed way by splitting into sub-tasks.
+- `Issue quick creation` functionality.To create an `issue`, users only need to select the corresponding type and fill out the issue brief information.
+- `Sprint management` functionality.Users can `create`, `enable`, `close` current active sprint. Also you can define the `sprint start` and `end time`, `name` and other information. You can view in the `sprint` detail the current assignment of the issue among corresponding `sprint memers` and the corresponding `remaining time`.
+- `Problem scheduling` functionality. Users can drag and drop the `issues` in the workbench to the required epic or version through single-selection and multi-selection drag and drop. You can also drag and drop into a certain sprint, reflected in the sort of position priority. It also supports issue quick creation in to-do list view.
+- `Epic management` functionality. Users can quickly create `epics` on the workbench. You can drag and drop the `epic` of the `issue` and filter `issues` by `epic`.
+- `Version management` functionality. Users can quickly create a `version` on the workbench.You can drag and drop the version of the `issue` and at the same time you can filter `issues` by `version` as well.
+- `Multi board management` functionality. Users can create multiple `boards`. Different `boards` can define different lane processes and split project management into multiple `board` processes according to different requirements.
+- `Board configuration management`. Users can define `board` flow according to their own needs, swim lane status,etc.
+- `Active sprint issue filtering` functionality. Currently support `issue` filtering in two dimensions including **my issues** and **user stories**.
+- `Active sprint time tracking` functionality. Users can track the progress of the current `issue` and the remaining time of the `sprint` on `board`.
+- `Active sprint issue management` functionality. Users can drag and drop the `issue` on `board`.The status of the issue will be based on the operation of the corresponding flow. It also supports the `sub task` of `lane management`.
+- `Version management list view` functionality. Users can view `version management` in the form of table, `edit`, `delete`, `publish` and `cancel publish version`.
+- `Version detail` interface. Users can view all the issues in this version and all related issues in this interface.
+- `Version release` functionality. Users can `publish version` and choose to migrate unfinished issues to other unreleased versions.
+- `Component management` view functionality. Users can create, edit and delete a component. It also supports multi-field sorting and filtering functions in list view.
 - Users can define the default handler strategy using template.
