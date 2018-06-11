@@ -12,7 +12,7 @@ Choerodon provides:
     
 ## The feature of Choerodon 
   
-- **Agile** - Choerodon provides a set of tools to help users manage the flow of user value in an agile manner which consists of story map, user story, sprint, kanban.
+- [**Agile**](http://choerodon.io/zh/docs/user-guide/scrum/) - Choerodon provides a set of tools to help users manage the flow of user value in an agile manner which consists of story map, user story, sprint, kanban.
 
 - [**Development Pipeline**](http://choerodon.io/zh/docs/user-guide/development-pipeline/) - Guided by the concept of DevOps, using Gitlab-CI as a continuous integration tool, combined with the Gitflow branch management model to provide continuous integration of the pipeline.
  
