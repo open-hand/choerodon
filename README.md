@@ -67,6 +67,8 @@ This repository contains the source code for Choerodon documentation. If you're 
 - [choerodon-front](https://github.com/choerodon/choerodon-front.git) - The project is an overall front-end project that combines Choerodon iam and Choerodon devops.
 - [choerodon-front-boot](https://github.com/choerodon/choerodon-front-boot.git) - Front end package management, startup, compilation.
 - [choerodon-front-iam](https://github.com/choerodon/choerodon-front-iam.git) - The project is an overall front-end project that combines Choerodon boot and Choerodon iam.
+- [choerodon-front-agile](https://github.com/choerodon/choerodon-front-agile.git) - The service is responsible for Agile process management and providing users with a better user experience through rich display.
+- [agile-service](https://github.com/choerodon/agile-service.git) - The service is responsible for Agile process management and providing users with a better user experience through rich display.
 - [choerodon-front-devops](https://github.com/choerodon/choerodon-front-devops.git) - DevOps Front is the core front service of Choerodon. The service is responsible for all front pages of continuous delivery and providing users with a better user experience through rich display.
 - [devops-service](https://github.com/choerodon/devops-service.git) - DevOps Service is the core service of Choerodon. Integrated several open source tools to automate the process of planning, coding, building, testing, and deployment, operation, monitoring.
 - [gitlab-service](https://github.com/choerodon/gitlab-service.git) - Gitlab Service is responsible for establishing communication with GitLab, handling GitLab related logic and forwarding it to other services.
