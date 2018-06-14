@@ -2,17 +2,14 @@
 
 Screenshots of various Choerodon views:
 
-## Story Map View:
-![](img/storyMap.png)
+## Issue View:
+![](img/issue.png)
 
-## Story View:
-![](img/story.png)
+## backlog View:
+![](img/backlog.png)
 
 ## Sprint View:
 ![](img/sprint.png)
-
-## kanban View:
-![](img/kanban.png)
 
 ## CI View:
 ![](img/ci.png)
@@ -27,8 +24,13 @@ Screenshots of various Choerodon views:
 ![](img/environment.png)
 
 ## Deploy View:
-![](img/runManagement.png)
+![](img/deployment.png)
 
+## Instance View:
+![](img/instance.png)
+
+## Container View:
+![](img/container.png)
 
 
 
