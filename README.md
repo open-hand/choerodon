@@ -12,7 +12,7 @@ Choerodon provides:
     
 ## The feature of Choerodon 
   
-- [**Wiki**](http://v0-8.choerodon.io/zh/docs/user-guide/wiki/) - Choerodon WiKi is a lightweight and powerful wiki platform that allows users to customize wikis based on their specific needs, provide a convenient project collaboration platform and a powerful project content management platform for enterprises and IT teams, centralize management of product-related content, manage related content, etc., such as demand gathering, architecture design, function design, development specification, naming code, meeting minutes, planning arrangement, etc.
+- [**Wiki**](http://v0-8.choerodon.io/zh/docs/user-guide/wiki/) - Choerodon WiKi is a lightweight and powerful wiki platform that allows users to customize wikis based on their specific needs, provide a convenient project collaboration platform and a powerful project content management platform for enterprises and IT teams, centralize management of product-related content, manage related content, etc.
 
 - [**Agile**](http://v0-8.choerodon.io/zh/docs/user-guide/agile/) - Choerodon provides a set of tools to help users manage the flow of user value in an agile manner which consists of story map, user story, sprint, kanban.
 
