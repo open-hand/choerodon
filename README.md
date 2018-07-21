@@ -1,4 +1,6 @@
-# Choerodon
+[Home](http://choerodon.io) | [Documents](http://choerodon.io/zh/docs/) | [Blog](http://choerodon.io/zh/blog/) | [Community](http://choerodon.io/zh/community/) | [Forum](http://forum.choerodon.io) | [Cases](http://choerodon.io/zh/case-studies/) | [Screenshots](https://github.com/choerodon/choerodon/blob/master/SCREENSHOT.md) | [Release Notes](https://github.com/choerodon/choerodon/blob/master/changelogs/)
+
+# Choerodon - An open source PaaS for Kubernetes
 
 ![](img/choerodon-community.png)
 
