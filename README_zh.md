@@ -115,7 +115,7 @@ Choerodon 的微服务开发框架由微服务后端和前端两个部分组成�
 
 ## 贡献
 
-我们十分欢迎您的参与!如果您有任何反馈，请在Github上[提交问题](https://github.com/choerodon/choerodon/issues)。如果您想参与开发，请阅读[贡献文档](contribution .md)并提交拉取请求。
+我们十分欢迎您的参与！如果您有任何反馈，请在Github上[提交问题](https://github.com/choerodon/choerodon/issues)。如果您想参与开发，请阅读[贡献文档](contribution .md)并提交拉取请求。
 
 ## 支持
 
