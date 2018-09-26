@@ -9,7 +9,7 @@ Screenshots of various Choerodon views:
 ![](img/backlog.png)
 
 ## Sprint View:
-![](img/sprint.png)
+![](img/sprint.jpg)
 
 ## CI View:
 ![](img/ci.png)
