@@ -84,7 +84,7 @@ This repository contains the source code for Choerodon documentation. If you're 
 - [zipkin-ui](https://github.com/choerodon/zipkin-ui.git) - zipkin UI Application.
 - [zipkin-collector](https://github.com/choerodon/zipkin-collector.git) - Zipkin calls chain collector. Read the Zipkin call information from the Kafka, store the call information in the Elasticsearch, and facilitate the Zipkin front-end display.
 
-- [wiki-service](https://github.com/choerodon/wiki-service.git) - TThis service is responsible for WiKi and wiki is a convenient project collaboration platform and a powerful project content management platform.
+- [wiki-service](https://github.com/choerodon/wiki-service.git) - This service is responsible for WiKi and wiki is a convenient project collaboration platform and a powerful project content management platform.
 
 - [choerodon-front-wiki](https://github.com/choerodon/choerodon-front-wiki.git) - WiKi Front is the front service of WiKi, This service is responsible for all pages of the WiKi.
 
