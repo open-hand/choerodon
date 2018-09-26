@@ -2,8 +2,14 @@
 
 Screenshots of various Choerodon views:
 
+## Home View:
+![](img/homePage.png)
+
 ## Issue View:
 ![](img/issue.png)
+
+## Story Map View:
+![](img/storyMap.png)
 
 ## backlog View:
 ![](img/backlog.png)
