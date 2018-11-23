@@ -51,6 +51,8 @@ Choerodon 的微服务开发框架由微服务后端和前端两个部分组成�
 
 此外，在[前端开发手册](http://v0-8.choerodon.io/zh/docs/development-guide/front/) 的帮助下，你能尽快熟悉Choerodon的前端开发流程。
 
+如果你有任何问题，都可以在[论坛](http://forum.choerodon.io/)中提出。
+
 ## Choerodon的组件
 
 这个仓库包含了Choerodon文档的源代码，如果您想要寻找单个的组件，可以在对应的各个仓库中找到。
@@ -113,10 +115,14 @@ Choerodon 的微服务开发框架由微服务后端和前端两个部分组成�
 
 - [choerodon-front-test-manager](https://github.com/choerodon/choerodon-front-test-manager.git) - 是测试管理的前端服务，包含了测试管理相关的组件和页面。
 
+- [issue-service](https://github.com/choerodon/issue-service) - 是一个用于管理issue属性设置的服务，通过方案的形式管理包括问题类型，状态，优先级在内的issue属性。
+
+- [state-machine-service](https://github.com/choerodon/state-machine-service) - 是一个管理issue状态流转的服务，包括状态转换前后的校验，转换前后的自动化任务执行等。
+
 ## 贡献
 
-我们十分欢迎您的参与！如果您有任何反馈，请在Github上[提交问题](https://github.com/choerodon/choerodon/issues)。如果您想参与开发，请阅读[贡献文档](contribution .md)并提交拉取请求。
+我们十分欢迎您的参与！如果您有任何反馈，请在论坛上[提交问题](http://forum.choerodon.io/)。如果您想参与开发，请阅读[贡献文档](contribution.md)并提交拉取请求。
 
 ## 支持
 
-如果您有任何问题，需要我们的支持，[可以通过这些方式联系我们](http://v0-8.choerodon.io/zh/community/)。
+如果您有任何问题，需要我们的支持，[可以通过这些方式联系我们](http://choerodon.io/zh/community/)。

@@ -14,43 +14,45 @@ Choerodon provides:
     
 ## The feature of Choerodon 
   
-- [**Wiki**](http://v0-8.choerodon.io/zh/docs/user-guide/wiki/) - Choerodon WiKi is a lightweight and powerful wiki platform that allows users to customize wikis based on their specific needs, provide a convenient project collaboration platform and a powerful project content management platform for enterprises and IT teams, centralize management of product-related content, manage related content, etc.
+- [**Wiki**](http://choerodon.io/zh/docs/user-guide/wiki/) - Choerodon WiKi is a lightweight and powerful wiki platform that allows users to customize wikis based on their specific needs, provide a convenient project collaboration platform and a powerful project content management platform for enterprises and IT teams, centralize management of product-related content, manage related content, etc.
 
-- [**Agile**](http://v0-8.choerodon.io/zh/docs/user-guide/agile/) - Choerodon provides a set of tools to help users manage the flow of user value in an agile manner which consists of story map, user story, sprint, kanban.
+- [**Agile**](http://choerodon.io/zh/docs/user-guide/agile/) - Choerodon provides a set of tools to help users manage the flow of user value in an agile manner which consists of story map, user story, sprint, kanban.
 
-- [**Application Management**](http://v0-8.choerodon.io/zh/docs/user-guide/application-management/) - With Application Management, developers can easily create applications, make flexible application versioning, and publish applications to other projects, and can easily view projects and all applications within the organization, as well as deploy applications, through the application marketplace.
+- [**Application Management**](http://choerodon.io/zh/docs/user-guide/application-management/) - With Application Management, developers can easily create applications, make flexible application versioning, and publish applications to other projects, and can easily view projects and all applications within the organization, as well as deploy applications, through the application marketplace.
 
-- [**Development Pipeline**](http://v0-8.choerodon.io/zh/docs/user-guide/development-pipeline/) - Guided by the concept of DevOps, using Gitlab-CI as a continuous integration tool, combined with the Gitflow branch management model to provide continuous integration of the pipeline.
+- [**Development Pipeline**](http://choerodon.io/zh/docs/user-guide/development-pipeline/) - Guided by the concept of DevOps, using Gitlab-CI as a continuous integration tool, combined with the Gitflow branch management model to provide continuous integration of the pipeline.
 
-- [**Test Management**](http://v0-8.choerodon.io/zh/docs/user-guide/test-management/) - Choerodon's Test Management provides users with an agile continuous testing tool, including test case management, test cycle, test analysis and so on, can effectively improve the software testing efficiency and quality, improve the testing flexibility and visualization level, and ultimately reduce testing time, so that users will focus on the software function construction.
+- [**Test Management**](http://choerodon.io/zh/docs/user-guide/test-management/) - Choerodon's Test Management provides users with an agile continuous testing tool, including test case management, test cycle, test analysis and so on, can effectively improve the software testing efficiency and quality, improve the testing flexibility and visualization level, and ultimately reduce testing time, so that users will focus on the software function construction.
 
-- [**Deployment Pipeline**](http://v0-8.choerodon.io/zh/docs/user-guide/deployment-pipeline/) - With the help of the Choerodon, users can easily manage a variety of application services that use the development and deployment of Choerodon.
+- [**Deployment Pipeline**](http://choerodon.io/zh/docs/user-guide/deployment-pipeline/) - With the help of the Choerodon, users can easily manage a variety of application services that use the development and deployment of Choerodon.
 
-- [**Operation Management**](http://v0-8.choerodon.io/zh/docs/user-guide/operating-manage/) - Choerodon provides a complete set of operational management tools to monitor development indicators, server logs, application system logs, and micro service call chains.
+- [**Operation Management**](http://choerodon.io/zh/docs/user-guide/operating-manage/) - Choerodon provides a complete set of operational management tools to monitor development indicators, server logs, application system logs, and micro service call chains.
 
-- [**Microservice Development**](http://v0-8.choerodon.io/zh/docs/development-guide/) - Choerodon provides a complete microservice development framework of Spring Cloud-based,with this development framework user can easily build application services.
+- [**Microservice Development**](http://choerodon.io/zh/docs/development-guide/) - Choerodon provides a complete microservice development framework of Spring Cloud-based,with this development framework user can easily build application services.
 
-Also, you can view the [screenshots of Choerodon](SCREENSHOT.md) to have a most intuitive understanding of Choerodon, and you can visit the website of Choerodon [choerodon.io](http://v0-8.choerodon.io/)
+Also, you can view the [screenshots of Choerodon](SCREENSHOT.md) to have a most intuitive understanding of Choerodon, and you can visit the website of Choerodon [choerodon.io](http://choerodon.io/)
 
 ## Installation
  
-Please follow [the documentation of installation](http://v0-8.choerodon.io/zh/docs/installation-configuration/) to install Choerodon.
+Please follow [the documentation of installation](http://choerodon.io/zh/docs/installation-configuration/) to install Choerodon.
 
 ## To start using Choerodon
 
-To get started with Choerodon, please read the [Quick Start Guide](http://v0-8.choerodon.io/zh/docs/quick-start/).
+To get started with Choerodon, please read the [Quick Start Guide](http://choerodon.io/zh/docs/quick-start/).
 
-For operation manual, please read the documentation [choerodon.io](http://v0-8.choerodon.io/zh/docs/user-guide/).
+For operation manual, please read the documentation [choerodon.io](http://choerodon.io/zh/docs/user-guide/).
+
+If you have any questions, you can post in [forum](http://forum.choerodon.io/).
 
 ## To start developing with Choerodon
 
 There are two parties, **microservice backend** and **frontend**, in Choerodon microservice development framework.
 
 
-If you want to develop microservice backend, please refer to the   [microservices developer's documentation](http://v0-8.choerodon.io/zh/docs/development-guide/backend/).
+If you want to develop microservice backend, please refer to the   [microservices developer's documentation](http://choerodon.io/zh/docs/development-guide/backend/).
 
 
-Also, with the help of [frontend developer's documentation](http://v0-8.choerodon.io/zh/docs/development-guide/front/) , you can use the Choerodon`s frontend style.
+Also, with the help of [frontend developer's documentation](http://choerodon.io/zh/docs/development-guide/front/) , you can use the Choerodon`s frontend style.
 
 ## The components of Choerodon
 
@@ -90,11 +92,14 @@ This repository contains the source code for Choerodon documentation. If you're 
 
 - [test-manager-service](https://github.com/choerodon/test-manager-service.git) - This service is responsible for Test Management and improves testing efficiency through a variety of management test plans.
 - [choerodon-front-test-manager](https://github.com/choerodon/choerodon-front-test-manager.git) - Test Management Front is the front service of Test Management, This service is responsible for all pages of the Test Management.
+- [issue-service](https://github.com/choerodon/issue-service) - It is a service that manages the flow of issue states, including checksum automation task execution before and after state conversion.
+- [state-machine-service](https://github.com/choerodon/state-machine-service) - It is a service that manages the issue property settings, including problem types, states, and priorities, in the form of a scenario.
+
 
 ## Contribute
 
-We welcome your input! If you have feedback, please [submit an issue](https://github.com/choerodon/choerodon/issues). If you'd like to participate in development, please read the [documentation of contribution](CONTRIBUTING.md) and submit a pull request.
+We welcome your input! If you have feedback, please [submit an topic](http://forum.choerodon.io/). If you'd like to participate in development, please read the [documentation of contribution](CONTRIBUTING.md) and submit a pull request.
 
 ## Support
 
-If you have any questions and need our support, [reach out to us one way or another](http://v0-8.choerodon.io/zh/community/).
+If you have any questions and need our support, [reach out to us one way or another](http://choerodon.io/zh/community/).
