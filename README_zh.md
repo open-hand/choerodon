@@ -1,6 +1,6 @@
 [English](https://github.com/choerodon/choerodon/blob/master/README.md) | [官网](http://choerodon.io) | [文档](http://choerodon.io/zh/docs/) | [博客](http://choerodon.io/zh/blog/) | [社区](http://choerodon.io/zh/community/) · [论坛](http://forum.choerodon.io) | [案例](http://choerodon.io/zh/case-studies/) | [截图](https://github.com/choerodon/choerodon/blob/master/SCREENSHOT.md) | [路线图](https://github.com/choerodon/choerodon/blob/master/ROADMAP.md) | [版本更新](https://github.com/choerodon/choerodon/blob/master/changelogs/) 
 
-提示：我们十分欢迎您的参与！如果您有任何反馈，请在论坛上[提交问题](http://forum.choerodon.io/)。
+提示：我们十分欢迎您的参与！如果您有任何反馈，请在论坛上[提交问题](http://forum.choerodon.io/)
 
 # Choerodon - 企业级数字服务平台
 
