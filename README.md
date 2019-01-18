@@ -61,42 +61,60 @@ Also, with the help of [frontend developer's documentation](http://choerodon.io/
 This repository contains the source code for Choerodon documentation. If you're looking for individual components, they live in their own repositories.
 
 - [choerodon-starter](https://github.com/choerodon/choerodon-starters.git) - The is the toolkit developed by Choerodon and provides some basic dependency for use in the development process.
+
 - [choerodon-framework](https://github.com/choerodon/choerodon-framework.git) - The is the Choerodon Microservices Framework.
+
 - [api-gateway](https://github.com/choerodon/api-gateway.git) - Choerodon's gateway service is responsible for routing requests to real services. 
+
 - [config-server](https://github.com/choerodon/config-server.git) - Choerodon's configuration service is the configuration center for unified management of service configuration files.
+
 - [manager-service](https://github.com/choerodon/manager-service.git) - This service is the management center of the choerodon microservices framework. Its main functions include configuration management, route management, and swagger management.
+
 - [gateway-helper](https://github.com/choerodon/gateway-helper.git) - Authenticating and limiting the requests from api-gateway, create JWT and return to api-gateway.
+
 - [oauth-server](https://github.com/choerodon/oauth-server.git) - This service is the authorized authentication center of the choerodon microservices framework and is mainly responsible for user privilege and authorization.
+
 - [go-register-server](https://github.com/choerodon/go-register-server.git) - The microservice registration center is implemented by the go programming language, by tightly depend on the Kubernetes, the microservice registration is implemented by monitoring the state changes of the k8s pod, and adapt to the interface of the spring cloud eureka client to fetch service registry.
+
 - [iam-service](https://github.com/choerodon/iam-service.git) - With management functions of user, role, permission, organization, project, password policy, fast code, client, menu, icon, multi-language , and support for importing third-party users through LDAP.
-- [event-store-service](https://github.com/choerodon/event-store-service.git) - Event-store-service for data consistency support. It is necessary to cooperate with choerodon-starter-event-producer and choerodon-starter-event-consumer to implement data consistency. Currently, the message queue kafka is supported.
+
+- [asgard-service](https://github.com/choerodon/easgard-service.git) - The asgard-service is a task scheduling service, and support taskOutputJsonData consistency through saga.
+
 - [file-service](https://github.com/choerodon/file-service.git) - The file service is built on minio server, we can use minio client to upload and delete files.
-- [hystrix-turbine](https://github.com/choerodon/hystrix-turbine.git) - Hystrix Turbine integrates each service's data of Hystrix Dashboard. The use of Hystrix Turbine is very simple and requires only the introduction of appropriate dependencies, annotations and configurations.
-- [hystrix-dashboard](https://github.com/choerodon/hystrix-dashboard.git) - Hystrix Dashboard is a dashboard component of Hystrix. It is mainly used to monitor Hystrix's index information in real time. Information fed back through the interface can quickly discover problems in the system.
+
 - [choerodon-ui](https://github.com/choerodon/choerodon-ui.git) - An enterprise-class UI design language and React-based implementation.
+
 - [choerodon-front](https://github.com/choerodon/choerodon-front.git) - The project is an overall front-end project that combines Choerodon iam and Choerodon devops.
+
 - [choerodon-front-boot](https://github.com/choerodon/choerodon-front-boot.git) - Front end package management, startup, compilation.
+
 - [choerodon-front-iam](https://github.com/choerodon/choerodon-front-iam.git) - The project is an overall front-end project that combines Choerodon boot and Choerodon iam.
+
 - [choerodon-front-agile](https://github.com/choerodon/choerodon-front-agile.git) - The service is responsible for Agile process management and providing users with a better user experience through rich display.
+
 - [agile-service](https://github.com/choerodon/agile-service.git) - The service is responsible for Agile process management and providing users with a better user experience through rich display.
+
 - [choerodon-front-devops](https://github.com/choerodon/choerodon-front-devops.git) - DevOps Front is the core front service of Choerodon. The service is responsible for all front pages of continuous delivery and providing users with a better user experience through rich display.
+
 - [devops-service](https://github.com/choerodon/devops-service.git) - DevOps Service is the core service of Choerodon. Integrated several open source tools to automate the process of planning, coding, building, testing, and deployment, operation, monitoring.
+
 - [gitlab-service](https://github.com/choerodon/gitlab-service.git) - Gitlab Service is responsible for establishing communication with GitLab, handling GitLab related logic and forwarding it to other services.
+
 - [choerodon-agent](https://github.com/choerodon/choerodon-agent.git) - It is a core component of the continuous delivery of Choerodon, deployment pipeline through active connections, and interacting directly with Kubernetes clusters, such as cluster status checks, application environment status checks, updates, and more.
-
-
-- [zipkin-ui](https://github.com/choerodon/zipkin-ui.git) - zipkin UI Application.
-- [zipkin-collector](https://github.com/choerodon/zipkin-collector.git) - Zipkin calls chain collector. Read the Zipkin call information from the Kafka, store the call information in the Elasticsearch, and facilitate the Zipkin front-end display.
 
 - [wiki-service](https://github.com/choerodon/wiki-service.git) - This service is responsible for WiKi and wiki is a convenient project collaboration platform and a powerful project content management platform.
 
 - [choerodon-front-wiki](https://github.com/choerodon/choerodon-front-wiki.git) - WiKi Front is the front service of WiKi, This service is responsible for all pages of the WiKi.
 
 - [test-manager-service](https://github.com/choerodon/test-manager-service.git) - This service is responsible for Test Management and improves testing efficiency through a variety of management test plans.
+
 - [choerodon-front-test-manager](https://github.com/choerodon/choerodon-front-test-manager.git) - Test Management Front is the front service of Test Management, This service is responsible for all pages of the Test Management.
+
 - [issue-service](https://github.com/choerodon/issue-service) - It is a service that manages the flow of issue states, including checksum automation task execution before and after state conversion.
+
 - [state-machine-service](https://github.com/choerodon/state-machine-service) - It is a service that manages the issue property settings, including problem types, states, and priorities, in the form of a scenario.
 
+- [choerodon-front-issue](https://github.com/choerodon/choerodon-front-issue.git) - Issue Front is the core front service of Choerodon. The service is responsible for Issue and stateMachine process management and providing users with a better user experience through rich display.
 
 ## Contribute
 

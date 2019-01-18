@@ -77,13 +77,9 @@ Choerodon 的微服务开发框架由微服务后端和前端两个部分组成�
 
 - [iam-service](https://github.com/choerodon/iam-service.git) - Choerodon的核心后端服务，具有用户、角色、权限、组织、项目、密码策略、快速代码、客户端、菜单、图标、多语言等管理功能，支持通过LDAP导入第三方用户。
 
-- [event-store-service](https://github.com/choerodon/event-store-service.git) - 于数据一致性支持的事件存储服务。为了实现数据一致性, 需要与 `choerodon-starter-event-producer` 和 `choerodon-starter-event-consumer` 一起使用。目前已经支持kafka的消息队列。
+- [asgard-service](https://github.com/choerodon/asgard-service.git) - 分布式定时任务及分布式事务管理服务。
 
 - [file-service](https://github.com/choerodon/file-service.git) - 文件服务构建在minio服务器上，我们可以使用minio客户端上传和删除文件。
-
-- [hystrix-turbine](https://github.com/choerodon/hystrix-turbine.git) - Hystrix Turbine集成了Hystrix Dashboard的每项服务数据。 Hystrix Turbine的使用非常简单，只需要引入适当的依赖关系，注释和配置。
-
-- [hystrix-dashboard](https://github.com/choerodon/hystrix-dashboard.git) - 是Hystrix的仪表板组件。主要用于实时监控Hystrix的索引信息。通过接口反馈的信息可以快速发现系统中的问题。
 
 - [choerodon-ui](https://github.com/choerodon/choerodon-ui.git) - 基于 Ant Design Components 实现谷歌的 Material Design 的 React 组件，用于开发和服务于企业级后台产品。
 
@@ -105,10 +101,6 @@ Choerodon 的微服务开发框架由微服务后端和前端两个部分组成�
 
 - [choerodon-agent](https://github.com/choerodon/choerodon-agent.git) - 是猪齿鱼持续交付部分的一个核心组件，通过主动连接部署服务，并与Kubernetes集群进行直接交互，例如集群状态检查，应用环境状态检查、更新等。
 
-- [zipkin-ui](https://github.com/choerodon/zipkin-ui.git) - 是zipkin的前端应用程序。
-
-- [zipkin-collector](https://github.com/choerodon/zipkin-collector.git) - 是调用链收集器。采集读取来自Kafka的Zipkin调用信息，将调用信息存储在Elasticsearch中，以便在Zipkin前端显示。
-
 - [wiki-service](https://github.com/choerodon/wiki-service.git) - 是知识管理的后端服务。知识管理是便捷的项目协作平台和强大的项目内容管理平台。
 
 - [choerodon-front-wiki](https://github.com/choerodon/choerodon-front-wiki.git) - 是知识管理的前端服务，包含了知识管理相关的组件和页面。
@@ -120,6 +112,8 @@ Choerodon 的微服务开发框架由微服务后端和前端两个部分组成�
 - [issue-service](https://github.com/choerodon/issue-service) - 是一个用于管理issue属性设置的服务，通过方案的形式管理包括问题类型，状态，优先级在内的issue属性。
 
 - [state-machine-service](https://github.com/choerodon/state-machine-service) - 是一个管理issue状态流转的服务，包括状态转换前后的校验，转换前后的自动化任务执行等。
+
+- [choerodon-front-issue](https://github.com/choerodon/choerodon-front-issue.git) - 该服务负责问题和状态机进程管理，并通过丰富的显示为用户提供更好的用户体验。
 
 ## 贡献
 
