@@ -2,7 +2,7 @@
 
 Tips: We welcome your input! If you have feedback, please [submit an topic](http://forum.choerodon.io/) in [the forum of Choerodon](http://forum.choerodon.io/).
 
-# Choerodon - An open source PaaS for Kubernetes
+# Choerodon - An Open Source Multi-Cloud Application Platform
 
 ![](img/choerodon-community.png)
 
