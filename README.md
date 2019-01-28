@@ -6,7 +6,7 @@ Tips: We welcome your input! If you have feedback, please [submit an topic](http
 
 ![](img/choerodon-community.png)
 
-Choerodon is an open source enterprise service platform based on container orchestration and management capabilities of [Kubernetes](https://kubernetes.io/). It integrates the tool chain of DevOps, microservices, and mobile application framework to help companies achieve Scrum application delivery and automated operations management, and provide business components such as IoT, payment, data, smart insight, and enterprise application market to help companies focus on business and accelerate digital transformation.
+Choerodon is an open source multi-cloud application platform based on container orchestration and management capabilities of [Kubernetes](https://kubernetes.io/). It integrates the tool chain of DevOps, microservices, and mobile application framework to help companies achieve Scrum application delivery and automated operations management, and provide business components such as IoT, payment, data, smart insight, and enterprise application market to help companies focus on business and accelerate digital transformation.
 
 Choerodon provides:
 
