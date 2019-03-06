@@ -12,7 +12,7 @@
     - [ ] 敏捷发布火车（ART）管理
     - [ ] feature管理
     - [ ] PI目标
-    - [ ] 项目群Kanban（当前PI）
+    - [ ] 项目群Kanban
     - [ ] 项目群Board
     - [ ] PI Roadmap
 
