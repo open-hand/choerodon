@@ -2,9 +2,6 @@
 
 该ROADMAP是猪齿鱼核心开发团队预期的产品开发计划列表,详细描述了猪齿鱼的未来走向，但随着时间的发展,可能会出现变动。希望通过ROADMAP能够让您获知我们的计划与愿景,如果您有什么更好的意见欢迎在[ISSUE](https://github.com/choerodon/choerodon/issues)中提出。
 
-
-# ROADMAP
-
 ## 大规模敏捷管理
 
 - [ ] 大规模敏捷管理
