@@ -118,6 +118,10 @@ This repository contains the source code for Choerodon documentation. If you're 
 
 - [choerodon-front-issue](https://github.com/choerodon/choerodon-front-issue.git) - Issue Front is the core front service of Choerodon. The service is responsible for Issue and stateMachine process management and providing users with a better user experience through rich display.
 
+## Demo environment
+
+And you can also experience [the demo environment of Choerodon](https://organization.choerodon.com.cn/#/organization/register-organization).
+
 ## Contribute
 
 We welcome your input! If you have feedback, please [submit an topic](http://forum.choerodon.io/). If you'd like to participate in development, please read the [documentation of contribution](CONTRIBUTING.md) and submit a pull request.
