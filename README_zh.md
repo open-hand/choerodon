@@ -16,42 +16,42 @@ Choerodon猪齿鱼主要包含:
 
 ## 特性 
   
-- [**知识管理**](http://v0-8.choerodon.io/zh/docs/user-guide/wiki/) - 知识管理服务是一个轻量级的强大Wiki平台，允许用户根据自己的特定需求自定义Wiki，为企业、IT团队提供方便的项目协作平台和强大的项目内容管理平台，集中式管理产品相关内容、管理相关内容等，例如需求收集、架构设计、功能设计、开发规范、命名规范、会议记录、计划安排等。
+- [**知识管理**](http://choerodon.io/zh/docs/user-guide/wiki/) - 知识管理服务是一个轻量级的强大Wiki平台，允许用户根据自己的特定需求自定义Wiki，为企业、IT团队提供方便的项目协作平台和强大的项目内容管理平台，集中式管理产品相关内容、管理相关内容等，例如需求收集、架构设计、功能设计、开发规范、命名规范、会议记录、计划安排等。
 
-- [**敏捷管理**](http://v0-8.choerodon.io/zh/docs/user-guide/agile/) - 敏捷管理提供了一套工具来帮助用户通过敏捷的方式来管理用户价值的流动，使整个软件开发流程管理规范化。敏捷管理的核心是需求，计划和执行。即通过故事地图、用户故事来管理用户故事和发布计划，通过迭代来管理冲刺，最后通过看板来可视化冲刺的执行。
+- [**敏捷管理**](http://choerodon.io/zh/docs/user-guide/agile/) - 敏捷管理提供了一套工具来帮助用户通过敏捷的方式来管理用户价值的流动，使整个软件开发流程管理规范化。敏捷管理的核心是需求，计划和执行。即通过故事地图、用户故事来管理用户故事和发布计划，通过迭代来管理冲刺，最后通过看板来可视化冲刺的执行。
 
-- [**应用管理**](http://v0-8.choerodon.io/zh/docs/user-guide/application-management/) - 借助应用管理，开发人员可以方便地进行应用创建，进行灵活的应用版本控制，同时可以将开发的应用发布至其他项目使用，并且通过应用市场可以便捷地查看项目以及组织内部所有的应用，以及进行应用部署等。
+- [**应用管理**](http://choerodon.io/zh/docs/user-guide/application-management/) - 借助应用管理，开发人员可以方便地进行应用创建，进行灵活的应用版本控制，同时可以将开发的应用发布至其他项目使用，并且通过应用市场可以便捷地查看项目以及组织内部所有的应用，以及进行应用部署等。
 
-- [**开发流水线**](http://v0-8.choerodon.io/zh/docs/user-guide/development-pipeline/) - 以DevOps理念为指引，借助Gitlab CI作为持续集成工具，结合Gitlab的分支管理，提供持续集成的流水线，可以简化应用开发、应用生命周期，以及快速迭代，同时还能提高团队效率，保持高质量；并且高效频繁地将软件的新版本，交付给质量团队或者用户。
+- [**开发流水线**](http://choerodon.io/zh/docs/user-guide/development-pipeline/) - 以DevOps理念为指引，借助Gitlab CI作为持续集成工具，结合Gitlab的分支管理，提供持续集成的流水线，可以简化应用开发、应用生命周期，以及快速迭代，同时还能提高团队效率，保持高质量；并且高效频繁地将软件的新版本，交付给质量团队或者用户。
 
-- [**测试管理**](http://v0-8.choerodon.io/zh/docs/user-guide/test-management/) - 测试管理为用户提供敏捷化的持续测试工具，包括测试用例管理、测试循环、测试分析等，可以有效地提高软件测试的效率和质量，提高测试的灵活性和可视化水平，最终减少测试时间，让用户将主要精力放到软件功能构建上。
+- [**测试管理**](http://choerodon.io/zh/docs/user-guide/test-management/) - 测试管理为用户提供敏捷化的持续测试工具，包括测试用例管理、测试循环、测试分析等，可以有效地提高软件测试的效率和质量，提高测试的灵活性和可视化水平，最终减少测试时间，让用户将主要精力放到软件功能构建上。
 
-- [**部署流水线**](http://v0-8.choerodon.io/zh/docs/user-guide/deployment-pipeline/) - 借助部署流水线，用户客户可以方便地管理各种使用Choerodon开发部署的应用服务，包括应用启停、状态监控，以及应用对应的版本控制、容器管理等，同时还包括应用涉及到的各种资源管理，例如网络、域名、数据库服务、缓存服务等。
+- [**部署流水线**](http://choerodon.io/zh/docs/user-guide/deployment-pipeline/) - 借助部署流水线，用户客户可以方便地管理各种使用Choerodon开发部署的应用服务，包括应用启停、状态监控，以及应用对应的版本控制、容器管理等，同时还包括应用涉及到的各种资源管理，例如网络、域名、数据库服务、缓存服务等。
 
-- [**运营管理**](http://v0-8.choerodon.io/zh/docs/user-guide/operating-manage/) - 借助运营管理工具，在软件交付生产的各个环节建立数据收集和度量，使得团队能够根据交付过程当中的瓶颈做出必要的改进，监控主要包含开发类指标、服务器日志，应用系统日志和微服务调用链等信息；同时，提供各种分析报告，帮助用户优化IT资源配置。
+- [**运营管理**](http://choerodon.io/zh/docs/user-guide/operating-manage/) - 借助运营管理工具，在软件交付生产的各个环节建立数据收集和度量，使得团队能够根据交付过程当中的瓶颈做出必要的改进，监控主要包含开发类指标、服务器日志，应用系统日志和微服务调用链等信息；同时，提供各种分析报告，帮助用户优化IT资源配置。
 
-- [**微服务开发**](http://v0-8.choerodon.io/zh/docs/development-guide/) - 一套完整的基于Spring Cloud的微服务应用开发框架。借助微服务开发架构，以及容器为微服务提供的轻量级、面向应用的虚拟化运行环境和理想载体，并以Kubernetes作为容器编排工具，帮助企业方便快捷的构建应用服务。
+- [**微服务开发**](http://choerodon.io/zh/docs/development-guide/) - 一套完整的基于Spring Cloud的微服务应用开发框架。借助微服务开发架构，以及容器为微服务提供的轻量级、面向应用的虚拟化运行环境和理想载体，并以Kubernetes作为容器编排工具，帮助企业方便快捷的构建应用服务。
 
-同时，可以通过[系统截图](SCREENSHOT.md)对Choerodon有一个更加直观的认识和理解，也可以访问Choerodon的[官网](http://v0-8.choerodon.io/)，获得更详细的信息。
+同时，可以通过[系统截图](SCREENSHOT.md)对Choerodon有一个更加直观的认识和理解，也可以访问Choerodon的[官网](http://choerodon.io/)，获得更详细的信息。
 
 ## 安装与部署
  
-可以访问官网的[安装文档](http://v0-8.choerodon.io/zh/docs/installation-configuration/)，获得详细的安装说明。
+可以访问官网的[安装文档](http://choerodon.io/zh/docs/installation-configuration/)，获得详细的安装说明。
 
 ## 开始使用Choerodon
 
-在开始使用 Choerodon 之前，请阅读[快速入门手册](http://v0-8.choerodon.io/zh/docs/quick-start/).
+在开始使用 Choerodon 之前，请阅读[快速入门手册](http://choerodon.io/zh/docs/quick-start/).
 
-关于操作手册，请阅读文件[ 用户手册 ](http://v0-8.choerodon.io/zh/docs/user-guide/).
+关于操作手册，请阅读文件[ 用户手册 ](http://choerodon.io/zh/docs/user-guide/).
 
 ## 使用 Choerodon 进行开发
 
 Choerodon 的微服务开发框架由微服务后端和前端两个部分组成。
 
-如果你想对微服务后端进行开发，请参考[后端开发手册](http://v0-8.choerodon.io/zh/docs/development-guide/backend/)。
+如果你想对微服务后端进行开发，请参考[后端开发手册](http://choerodon.io/zh/docs/development-guide/backend/)。
 
 
-此外，在[前端开发手册](http://v0-8.choerodon.io/zh/docs/development-guide/front/) 的帮助下，你能尽快熟悉Choerodon的前端开发流程。
+此外，在[前端开发手册](http://choerodon.io/zh/docs/development-guide/front/) 的帮助下，你能尽快熟悉Choerodon的前端开发流程。
 
 如果你有任何问题，都可以在[论坛](http://forum.choerodon.io/)中提出。
 
@@ -117,7 +117,7 @@ Choerodon 的微服务开发框架由微服务后端和前端两个部分组成�
 
 ## 贡献
 
-我们十分欢迎您的参与！如果您有任何反馈，请在论坛上[提交问题](http://forum.choerodon.io/)。如果您想参与开发，请阅读[贡献文档](contribution.md)并提交拉取请求。
+我们十分欢迎您的参与！如果您有任何反馈，请在论坛上[提交问题](http://forum.choerodon.io/)。如果您想参与开发，请阅读[贡献文档](CONTRIBUTING.md)并提交拉取请求。
 
 ## 支持
 
