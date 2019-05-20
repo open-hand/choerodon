@@ -1,11 +1,11 @@
 # Choerodon Contributor Guide
 
-Welcome to Choerodon! When you want to make a contribution to Choerodon, the document elaborates how you can do..
+Welcome to Choerodon! When you want to make a contribution to Choerodon, the document elaborates how you can do.
 
 Contributions are welcome and appreciation! Every little bit helps and credit will always be given.
 
 When you are ready to contribution
-Please read [Choerodon coding specification] first(http://choerodon.io/zh/docs/development-guide/platform/)
+Please read [Choerodon coding specification](http://choerodon.io/zh/docs/development-guide/platform/)first.
 
 You can contribute in many ways:
 
