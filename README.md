@@ -72,8 +72,6 @@ This repository contains the source code for Choerodon documentation. If you're 
 
 - [manager-service](https://github.com/choerodon/manager-service.git) - This service is the management center of the choerodon microservices framework. Its main functions include configuration management, route management, and swagger management.
 
-- [gateway-helper](https://github.com/choerodon/gateway-helper.git) - Authenticating and limiting the requests from api-gateway, create JWT and return to api-gateway.
-
 - [oauth-server](https://github.com/choerodon/oauth-server.git) - This service is the authorized authentication center of the choerodon microservices framework and is mainly responsible for user privilege and authorization.
 
 - [go-register-server](https://github.com/choerodon/go-register-server.git) - The microservice registration center is implemented by the go programming language, by tightly depend on the Kubernetes, the microservice registration is implemented by monitoring the state changes of the k8s pod, and adapt to the interface of the spring cloud eureka client to fetch service registry.
@@ -90,13 +88,7 @@ This repository contains the source code for Choerodon documentation. If you're 
 
 - [choerodon-front-boot](https://github.com/choerodon/choerodon-front-boot.git) - Front end package management, startup, compilation.
 
-- [choerodon-front-iam](https://github.com/choerodon/choerodon-front-iam.git) - The project is an overall front-end project that combines Choerodon boot and Choerodon iam.
-
-- [choerodon-front-agile](https://github.com/choerodon/choerodon-front-agile.git) - The service is responsible for Agile process management and providing users with a better user experience through rich display.
-
 - [agile-service](https://github.com/choerodon/agile-service.git) - The service is responsible for Agile process management and providing users with a better user experience through rich display.
-
-- [choerodon-front-devops](https://github.com/choerodon/choerodon-front-devops.git) - DevOps Front is the core front service of Choerodon. The service is responsible for all front pages of continuous delivery and providing users with a better user experience through rich display.
 
 - [devops-service](https://github.com/choerodon/devops-service.git) - DevOps Service is the core service of Choerodon. Integrated several open source tools to automate the process of planning, coding, building, testing, and deployment, operation, monitoring.
 
@@ -106,17 +98,11 @@ This repository contains the source code for Choerodon documentation. If you're 
 
 - [wiki-service](https://github.com/choerodon/wiki-service.git) - This service is responsible for WiKi and wiki is a convenient project collaboration platform and a powerful project content management platform.
 
-- [choerodon-front-wiki](https://github.com/choerodon/choerodon-front-wiki.git) - WiKi Front is the front service of WiKi, This service is responsible for all pages of the WiKi.
-
 - [test-manager-service](https://github.com/choerodon/test-manager-service.git) - This service is responsible for Test Management and improves testing efficiency through a variety of management test plans.
-
-- [choerodon-front-test-manager](https://github.com/choerodon/choerodon-front-test-manager.git) - Test Management Front is the front service of Test Management, This service is responsible for all pages of the Test Management.
 
 - [issue-service](https://github.com/choerodon/issue-service) - It is a service that manages the flow of issue states, including checksum automation task execution before and after state conversion.
 
 - [state-machine-service](https://github.com/choerodon/state-machine-service) - It is a service that manages the issue property settings, including problem types, states, and priorities, in the form of a scenario.
-
-- [choerodon-front-issue](https://github.com/choerodon/choerodon-front-issue.git) - Issue Front is the core front service of Choerodon. The service is responsible for Issue and stateMachine process management and providing users with a better user experience through rich display.
 
 ## Demo environment
 
