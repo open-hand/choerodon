@@ -2,11 +2,11 @@
 
 提示：我们十分欢迎您的参与！如果您有任何反馈，请在论坛上[提交问题](http://forum.choerodon.io/)。您还可以体验[Choerodon的演示环境](https://organization.choerodon.com.cn/#/organization/register-organization)。
 
-# Choerodon - 开源多云应用平台
+# Choerodon - 开源多云集成平台
 
 ![](img/choerodon-community.png)
 
-Choerodon猪齿鱼是开源多云应用平台，基于[Kubernetes](https://kubernetes.io/)的容器编排和管理能力，整合DevOps工具链、微服务和移动应用框架，来帮助企业实现敏捷化的应用交付和自动化的运营管理，并提供IoT、支付、数据、智能洞察、企业应用市场等业务组件，来帮助企业聚焦于业务，加速数字化转型。
+Choerodon猪齿鱼是开源多云集成平台，基于[Kubernetes](https://kubernetes.io/)的容器编排和管理能力，整合DevOps工具链、微服务和移动应用框架，来帮助企业实现敏捷化的应用交付和自动化的运营管理，并提供IoT、支付、数据、智能洞察、企业应用市场等业务组件，来帮助企业聚焦于业务，加速数字化转型。
 
 Choerodon猪齿鱼主要包含:
 
