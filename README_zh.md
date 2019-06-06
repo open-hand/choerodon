@@ -6,7 +6,7 @@
 
 ![](img/choerodon-community.png)
 
-Choerodon猪齿鱼是开源多云集成平台，基于[Kubernetes](https://kubernetes.io/)的容器编排和管理能力，整合DevOps工具链、微服务和移动应用框架，来帮助企业实现敏捷化的应用交付和自动化的运营管理，并提供IoT、支付、数据、智能洞察、企业应用市场等业务组件，来帮助企业聚焦于业务，加速数字化转型。
+Choerodon猪齿鱼开源多云集成平台，基于开源技术[Kubernetes](https://kubernetes.io/)，[Istio](https://istio.io/)，[knative](https://pivotal.io/knative)，[Gitlab](https://about.gitlab.com/)和[Spring Cloud](https://spring.io/projects/spring-cloud)来实现本地和云端环境的集成，实现企业多云/混合云应用环境的一致性。平台通过提供精益敏捷、持续交付、容器环境、微服务、DevOps等能力来帮助组织团队来完成软件的生命周期管理，从而更快、更频繁地交付更稳定的软件。
 
 Choerodon猪齿鱼主要包含:
 
