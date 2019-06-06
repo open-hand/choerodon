@@ -8,7 +8,7 @@ And you can also experience [the demo environment of Choerodon](https://organiza
 
 ![](img/choerodon-community.png)
 
-Choerodon is an open source multi-cloud integrated platform based on container orchestration and management capabilities of [Kubernetes](https://kubernetes.io/). It integrates the tool chain of DevOps, microservices, and mobile application framework to help companies achieve Scrum application delivery and automated operations management, and provide business components such as IoT, payment, data, smart insight, and enterprise application market to help companies focus on business and accelerate digital transformation.
+Choerodon is an open source mult-cloud integrated platform, which is built on open source technologies, including [Kubernetes](https://kubernetes.io/), [Istio](https://istio.io/), [knative](https://pivotal.io/knative), [Gitlab](https://about.gitlab.com/) and [Spring Cloud](https://spring.io/projects/spring-cloud), to enable integration of local and cloud environments and achieve the consistency of enterprise cloud/hybrid cloud environments. By providing lean/agile, continuous delivery, container environments, microservices, DevOps, and other capabilities, the platform helps organizations to manage applications lifecycle, and deliver business value rapidly and frequently.
 
 Choerodon provides:
 
