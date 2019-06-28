@@ -2,7 +2,7 @@
 
 Tips: We welcome your input! If you have feedback, please [submit an topic](http://forum.choerodon.io/) in [the forum of Choerodon](http://forum.choerodon.io/).
 
-And you can also experience [the demo environment of Choerodon](https://organization.choerodon.com.cn/#/organization/register-organization).
+And you can also [sign up Choerodon](https://organization.choerodon.com.cn/#/organization/register-organization) and kickstart your journey.
 
 # Choerodon - Open Source Multi-Cloud Integrated Platform
 
