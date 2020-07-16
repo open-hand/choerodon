@@ -69,7 +69,7 @@ Choerodon微服务开发框架有两个方面，即 **微服务后端**和 **前
 
 ## 演示环境
 
-您还可以体验Choerodon的[演示环境](https://api.choerodon.com.cn/oauth/login)。
+您还可以体验Choerodon的[演示环境](https://choerodon.com.cn/#/iam/register-organization)。
 
 ## 参与贡献
 
