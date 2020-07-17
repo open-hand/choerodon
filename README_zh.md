@@ -34,11 +34,13 @@ Choerodon提供：
 
 ## 开始开发
 
-Choerodon微服务开发框架有两个方面，即 **微服务后端**和 **前端**。
+Choerodon 微服务开发框架的开发流程。
 
-如果您要开发微服务后端，请参阅[微服务开发人员的文档](http://choerodon.io/zh/docs/development-guide/backend/)。
+[基础开发手册](http://choerodon.io/zh/docs/development-guide/basic/) 介绍了使用Choerodon使用到的基础组件，包括如何从使用Kubernetes的yaml部署转型到使用helm chart 进行部署等一系列入门教程。
 
-另外，借助[前端开发人员的文档](http://choerodon.io/zh/docs/development-guide/front/)，您可以使用Choerodon的前端样式。
+[前端开发手册](http://choerodon.io/zh/docs/development-guide/front/) 介绍如何开发新的页面，如何建立并开发新的模块和系统平台的相关配置项。
+
+[后端开发手册](http://choerodon.io/zh/docs/development-guide/backend/) 介绍基于开发的基本工具与其具体安装配置。通过此章节，用户可完成基本开发环境的搭建。
 
 ## Choerodon的组成
 
