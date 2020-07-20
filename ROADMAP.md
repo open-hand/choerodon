@@ -6,7 +6,7 @@ The ROADMAP is a list of product development plans that the core development tea
 
 - [x] Platform overview
 - [x] Organization overview
-- [x] Role management角色管理
+- [x] Role management
 - [x] Transaction management
     - [x] Transaction definition
     - [x]  Transaction instance
@@ -28,11 +28,11 @@ The ROADMAP is a list of product development plans that the core development tea
     - [x] Interface statistics
     - [x] Menu statistics
 - [x] Choerodon CLI tools
-- [x] Project type split 
+- [x] Project type split
 - [ ] Personal workbench
 - [x] Platform user audit function
-- [x] The installation tool supports commercial installation 
-- [ ] Project Overview 
+- [x] The installation tool supports commercial installation
+- [ ] Project Overview
 - [ ] Platform data recovery function
 - [ ] System multi component transaction optimization
 ## Agile collaboration
@@ -54,8 +54,8 @@ The ROADMAP is a list of product development plans that the core development tea
       - [x] task
       - [x] defect
     - [x] Planning sprint
-    - [x] To Do List 
-    - [x] version management 
+    - [x] To Do List
+    - [x] version management
 - [x] Story map
 - [ ] State machine
 ## Knowledge base
@@ -92,9 +92,9 @@ The ROADMAP is a list of product development plans that the core development tea
 - [x] test plan
     - [x] Schedule folder
     - [x] Test execution
-- [x] automated testing 
+- [x] automated testing
     - [ ] API testing
-    - [ ] unit testing 
+    - [ ] unit testing
     - [ ] Stress testing
     - [ ] Automated UI testing
 ## Continuous deployment
