@@ -1,4 +1,5 @@
-[中文](https://github.com/choerodon/choerodon/blob/master/README_zh.md) | [Home](http://choerodon.io) | [Documents](http://choerodon.io/zh/docs/) | [Blog](http://choerodon.io/zh/blog/) | [Community](http://choerodon.io/zh/community/) · [Forum](http://forum.choerodon.io) | [Cases](http://choerodon.io/zh/case-studies/) | [Screenshots](https://github.com/choerodon/choerodon/blob/master/SCREENSHOT.md) | [Roadmap](https://github.com/choerodon/choerodon/blob/master/ROADMAP.md) | [Release Notes](https://github.com/choerodon/choerodon/blob/master/changelogs/)
+English | [简体中文](./README_zh.md) | [Home](http://choerodon.io) | [Documents](http://choerodon.io/zh/docs/) | [Blog](http://choerodon.io/zh/blog/) | [Community](http://choerodon.io/zh/community/) · [Forum](http://forum.choerodon.io) | [Cases](http://choerodon.io/zh/case-studies/) | [Screenshots](https://github.com/choerodon/choerodon/blob/master/SCREENSHOT.md) | [Roadmap](https://github.com/choerodon/choerodon/blob/master/ROADMAP.md) | [Release Notes](https://github.com/choerodon/choerodon/blob/master/changelogs/)
+
 
 Tips: We welcome your input! If you have feedback, please [submit an topic](http://forum.choerodon.io/) in [the forum of Choerodon](http://forum.choerodon.io/).
 
@@ -33,6 +34,20 @@ Choerodon provides:
 
 Also, you can view the [screenshots of Choerodon](SCREENSHOT.md) to have a most intuitive understanding of Choerodon, and you can visit the website of Choerodon [choerodon.io](http://choerodon.io/)
 
+## Component relationship list
+```
+└─ choerodon-parent                                CHOERODON Father component
+    ├─ hzero-parent                                HZERO Father component
+    └─ choerodon-starter-parent                    Generic development parent component
+        ├─ choerodon-gitlab4j-api                  gitlab api component
+        ├─ choerodon-tool-liquibase                liquibase Initialize component
+        │  └─ hzero-installer                      hzero Initialize component 
+        ├─ choerodon-starter-core                  core component
+        └─ choerodon-starter-asgard                asgard component
+```
+For detailed component information on HZERO-PARENT，see[HZERO](https://github.com/open-hand/hzero.git).
+
+
 ## Installation
  
 Please follow [the documentation of installation](http://choerodon.io/zh/docs/installation-configuration/) to install Choerodon.
@@ -56,30 +71,23 @@ Also, with the help of [frontend developer's documentation](http://choerodon.io/
 ## The components of Choerodon
 
 This repository contains the source code for Choerodon documentation. If you're looking for individual components, they live in their own repositories.
-
-- [choerodon-starter](https://github.com/choerodon/choerodon-starters.git) - The is the toolkit developed by Choerodon and provides some basic dependency for use in the development process.
-
-- [choerodon-framework](https://github.com/choerodon/choerodon-framework.git) - The is the Choerodon Microservices Framework.
-
-- [api-gateway](https://github.com/choerodon/api-gateway.git) - Choerodon's gateway service is responsible for routing requests to real services. 
-
-- [manager-service](https://github.com/choerodon/manager-service.git) - This service is the management center of the choerodon microservices framework. Its main functions include configuration management, route management, and swagger management.
-
-- [oauth-server](https://github.com/choerodon/oauth-server.git) - This service is the authorized authentication center of the choerodon microservices framework and is mainly responsible for user privilege and authorization.
-
-- [register-server](https://github.com/choerodon/go-register-server.git) - The microservice registration center is implemented by the go programming language, by tightly depend on the Kubernetes, the microservice registration is implemented by monitoring the state changes of the k8s pod, and adapt to the interface of the spring cloud eureka client to fetch service registry.
-
-- [base-service](https://github.com/choerodon/base-service.git) -  Choerodon's core back-end services, with user, role, privilege, organization, project, password policy, client, menu, icon, multi language and other management functions, support the import of third-party users through LDAP. 
-
-- [asgard-service](https://github.com/choerodon/easgard-service.git) - The asgard-service is a task scheduling service, and support taskOutputJsonData consistency through saga.
-
-- [file-service](https://github.com/choerodon/file-service.git) - The file service is built on minio server, we can use minio client to upload and delete files.
+- **choerodon-starter** [[GitHub]](https://github.com/open-hand/choerodon-starters)|[[Gitee]](https://gitee.com/open-hand/choerodon-starters) - Is a toolkit developed by Choerodon, which provides some of the basic dependencies used in the development process.
+- **choerodon-framework** [[GitHub]](https://github.com/open-hand/choerodon-framework)|[[Gitee]](https://gitee.com/open-hand/choerodon-framework) - Choerodon microservices framework.
+- **choerodon-register** [[GitHub]](https://github.com/open-hand/choerodon-register)|[[Gitee]](https://gitee.com/open-hand/choerodon-register) - The service Choerodon's Platform registry service is based on Eureka.
+- **choerodon-platform** [[GitHub]](https://github.com/open-hand/choerodon-platform)|[[Gitee]](https://gitee.com/open-hand/choerodon-platform)  - This service is Choerodon as the basic management service of the platform, mainly providing some basic capabilities for the platform, such as system configuration, development configuration, etc.
+- **choerodon-oauth** [[GitHub]](https://github.com/open-hand/choerodon-oauth)|[[Gitee]](https://gitee.com/open-hand/choerodon-oauth)  - This service is the Choerodon microservice architecture authorization center and is mainly responsible for user permission setting and authorization.
+- **choerodon-swagger** [[GitHub]](https://github.com/open-hand/go-choerodon-swagger)|[[Gitee]](https://gitee.com/open-hand/go-choerodon-swagger)  - This service is Choerodon's API document management service, which is mainly responsible for interface document, API document of platform development test and debugging management.
+- **choerodon-gateway** [[GitHub]](https://github.com/open-hand/choerodon-gateway)|[[Gitee]](https://gitee.com/open-hand/choerodon-gateway)  - This service is Choerodon's Spring Cloud Gateway based microservice Gateway service.
+- **choerodon-file** [[GitHub]](https://github.com/open-hand/choerodon-file)|[[Gitee]](https://gitee.com/open-hand/choerodon-file)  - The service is Choerodon file management, which provides file storage services for the platform.
+- **choerodon-message** [[GitHub]](https://github.com/open-hand/choerodon-message)|[[Gitee]](https://gitee.com/open-hand/choerodon-message)  - The service is Choerodon message management, a unified messaging push portal for the platform.
+- **choerodon-admin** [[GitHub]](https://github.com/open-hand/choerodon-admin)|[[Gitee]](https://gitee.com/open-hand/choerodon-admin)  - This service is Choerodon's platform governance service and provides automated routing refresh, authority refresh, swagger information refresh.
+- **choerodon-iam** [[GitHub]](https://github.com/open-hand/choerodon-iam)|[[Gitee]](https://gitee.com/open-hand/choerodon-iam)  - This service is the core back-end service of Choerodon, with administrative functions such as user, role, permission, organization, project, password policy, client, menu, icon, multi-language, etc., supporting the import of third-party users through LDAP.
+- **choerodon-asgard** [[GitHub]](https://github.com/open-hand/choerodon-asgard)|[[Gitee]](https://gitee.com/open-hand/choerodon-asgard)  - This service is Choerodon's distributed timing task and distributed transaction management service.
+- **hzero-monitor** [[GitHub]](https://github.com/open-hand/hzero-monitor)|[[Gitee]](https://gitee.com/open-hand/hzero-monitor)  - This service is Choerodon's audit monitoring service and provides monitoring audit capabilities, including data audit and operational audit.
 
 - [choerodon-ui](https://github.com/choerodon/choerodon-ui.git) - An enterprise-class UI design language and React-based implementation.Realize the react component of Material Design  of Google based on Ant Design Components , which is used to develop and serve the enterprise level back-end products.
 
 - [choerodon-front](https://github.com/choerodon/choerodon-front.git) - The project is an overall front-end project that combines Choerodon base, Choerodon devops Choerodon agile, etc.
-
-- [notify-service](https://github.com/choerodon/notify-service.git) - A notification service, used to send mail, station letter or SMS, as well as custom settings of various message types..
 
 - [agile-service](https://github.com/choerodon/agile-service.git) - The service is responsible for Agile process management and the core service of the Porkfish platform. Its main functions include agile process management, including issue management, to-do items, release versions, active sprints, module management, reporting, etc.
 

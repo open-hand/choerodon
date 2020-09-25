@@ -1,3 +1,5 @@
+简体中文 | [English](./README.md) | [官网](http://choerodon.io) | [文档](http://choerodon.io/zh/docs/) | [博客](http://choerodon.io/zh/blog/) | [社区](http://choerodon.io/zh/community/) · [论坛](http://forum.choerodon.io) | [案例](http://choerodon.io/zh/case-studies/) | [Screenshots](./SCREENSHOT.md) | [Roadmap](./ROADMAP.md) | [changelog](./changelogs/)
+
 # Choerodon-开源多云技术平台
 
 Choerodon猪齿鱼是一个开源多云技术平台，是基于开源技术Kubernetes，Istio，knative，Gitlab，Spring Cloud来实现本地和云端环境的集成，实现企业多云/混合云应用环境的一致性。平台通过提供精益敏捷、持续交付、容器环境、微服务、DevOps等能力来帮助组织团队来完成软件的生命周期管理，从而更快、更频繁地交付更稳定的软件。
@@ -20,7 +22,20 @@ Choerodon提供：
 
 - [运营](http://choerodon.io/zh/docs/user-guide/report/) -汇集辅助项目进行管理的各种报表，多维度展示项目进展详情和问题。包含了敏捷报表（累积流量图、燃尽图等）、DevOps报表（代码提交图、代码质量图等）、测试报表。
 
-另外，您可以查看Choerodon的屏幕快照以最直观地了解Choerodon，还可以访问[Choerodon](choerodon.io)的网站。
+另外，您可以查看Choerodon的屏幕快照以最直观地了解Choerodon，还可以访问[Choerodon](https://choerodon.io)的网站。
+
+## 组件关系列表
+```
+└─ choerodon-parent                                CHOERODON父依赖
+    ├─ hzero-parent                                HZERO父依赖
+    └─ choerodon-starter-parent                    通用开发父组件
+        ├─ choerodon-gitlab4j-api                  gitlab api组件
+        ├─ choerodon-tool-liquibase                liquibase初始化组件 
+        │  └─ hzero-installer                      hzero初始化工具 
+        ├─ choerodon-starter-core                  辅助核心开发组件 
+        └─ choerodon-starter-asgard                asgard分布式事务组件
+```
+欲获取HZERO-PARENT详细的组件信息，可参考[HZERO](https://github.com/open-hand/hzero.git)
 
 ## 安装
 
@@ -46,27 +61,27 @@ Choerodon 微服务开发框架的开发流程。
 
 该存储库包含Choerodon文档的源代码。如果您要查找单个组件，则它们位于自己的存储库中。
 
-- [choerodon-starter](https://github.com/choerodon/choerodon-starters) - 是Choerodon开发的工具包，提供了一些开发过程中使用的基本依赖项。
-- [choerodon-framework](https://github.com/choerodon/choerodon-framework) - 是Choerodon微服务框架。
-- [api-gateway](https://github.com/choerodon/api-gateway) - Choerodon的网关服务负责发送指定请求到实际的服务器。
-- [manager-service](https://github.com/choerodon/manager-service)  - 该服务是Choerodon微服务开发框架的管理中心，它的主要功能包括配置管理、交付管理和 swagger 管理。
-- [oauth-server](https://github.com/choerodon/oauth-server)  - 该服务是 Choerodon 微服务架构的授权认证中心, 主要负责用户权限设置和授权。
-- [register-server](https://github.com/choerodon/go-register-server)  - 使用Go语言实现的注册服务，register-server与K8s紧密集成，可以监控集群中POD的状态，并可以统计注册服务客户端的信息。
+- **choerodon-starter** [[GitHub]](https://github.com/open-hand/choerodon-starters)|[[Gitee]](https://gitee.com/open-hand/choerodon-starters) - 是Choerodon开发的工具包，提供了一些开发过程中使用的基本依赖项。
+- **choerodon-framework** [[GitHub]](https://github.com/open-hand/choerodon-framework)|[[Gitee]](https://gitee.com/open-hand/choerodon-framework) - 是Choerodon微服务框架。
+- **choerodon-register** [[GitHub]](https://github.com/open-hand/choerodon-register)|[[Gitee]](https://gitee.com/open-hand/choerodon-register) - 该服务Choerodon的基于Eureka的平台注册中心服务。
+- **choerodon-platform** [[GitHub]](https://github.com/open-hand/choerodon-platform)|[[Gitee]](https://gitee.com/open-hand/choerodon-platform)  - 该服务是Choerodon作为平台的基础管理服务，主要为平台提供一些基础能力，如系统配置、开发配置等。
+- **choerodon-oauth** [[GitHub]](https://github.com/open-hand/choerodon-oauth)|[[Gitee]](https://gitee.com/open-hand/choerodon-oauth)  - 该服务是Choerodon微服务架构的授权认证中心, 主要负责用户权限设置和授权。
+- **choerodon-swagger** [[GitHub]](https://github.com/open-hand/go-choerodon-swagger)|[[Gitee]](https://gitee.com/open-hand/go-choerodon-swagger)  - 该服务是Choerodon的api文档管理服务，主要负责接口文档，平台开发测试的API文档和调试管理。
+- **choerodon-gateway** [[GitHub]](https://github.com/open-hand/choerodon-gateway)|[[Gitee]](https://gitee.com/open-hand/choerodon-gateway)  - 该服务是Choerodon基于Spring Cloud Gateway的微服务网关服务。
+- **choerodon-file** [[GitHub]](https://github.com/open-hand/choerodon-file)|[[Gitee]](https://gitee.com/open-hand/choerodon-file)  - 该服务是Choerodon文件管理，为平台提供文件存储服务。
+- **choerodon-message** [[GitHub]](https://github.com/open-hand/choerodon-message)|[[Gitee]](https://gitee.com/open-hand/choerodon-message)  - 该服务是Choerodon消息管理，平台统一的消息推送入口。
+- **choerodon-admin** [[GitHub]](https://github.com/open-hand/choerodon-admin)|[[Gitee]](https://gitee.com/open-hand/choerodon-admin)  - 该服务是Choerodon的平台治理服务，提供自动化的路由刷新、权限刷新、swagger信息刷新功能。
+- **choerodon-iam** [[GitHub]](https://github.com/open-hand/choerodon-iam)|[[Gitee]](https://gitee.com/open-hand/choerodon-iam)  - 该服务是Choerodon的核心后端服务，具有用户、角色、权限、组织、项目、密码策略、客户端、菜单、图标、多语言等管理功能，支持通过LDAP导入第三方用户。
+- **choerodon-asgard** [[GitHub]](https://github.com/open-hand/choerodon-asgard)|[[Gitee]](https://gitee.com/open-hand/choerodon-asgard)  - 该服务是Choerodon的分布式定时任务及分布式事务管理服务。
+- **hzero-monitor** [[GitHub]](https://github.com/open-hand/hzero-monitor)|[[Gitee]](https://gitee.com/open-hand/hzero-monitor)  - 该服务是Choerodon的审计监控服务，提供监控审计功能，包括数据审计和操作审计。
 
-
-- [base-service](https://github.com/choerodon/base-service)  - Choerodon的核心后端服务，具有用户、角色、权限、组织、项目、密码策略、客户端、菜单、图标、多语言等管理功能，支持通过LDAP导入第三方用户。
-
-
-- [asgard-service](https://github.com/choerodon/asgard-service)  - 分布式定时任务及分布式事务管理服务。
-- [file-service](https://github.com/choerodon/file-service)  - 文件服务构建在minio服务器上，我们可以使用minio客户端上传和删除文件。
-- [choerodon-ui](https://github.com/choerodon/choerodon-ui)  - 基于 Ant Design Components 实现谷歌的 Material Design 的 React 组件，用于开发和服务于企业级后台产品。
-- [choerodon-front](https://github.com/choerodon/choerodon-front)  - 这个前端服务是一个联合体，包含了choerodon-front-base、choerodon-front-agile、choerodon-front-devops、choerodon-front-test-manager等前端服务。
-- [notify-service](https://github.com/choerodon/notify-service) - 是一个通知服务，用于发送邮件、站内信或短信，以及各消息类型的自定义设置。
-- [agile-service](https://github.com/choerodon/agile-service) - 该服务是Choerodon的敏捷管理模块，是猪齿鱼平台的核心服务，它的主要功能包括敏捷流程管理，包括问题管理、待办事项、发布版本、活跃冲刺、模块管理、报告等。
-- [test-manager-service](https://github.com/choerodon/test-manager-service) - 该服务是Choerodon的测试管理模块。它的主要功能包括测试用例管理、测试循环、测试报表分析、自动化测试等。
-- [knowledgebase-service](https://github.com/choerodon/knowledgebase-service) - 该服务是Choerodon的知识管理模块，它的主要功能包括创建知识、编辑知识、导航、链接、搜索等。
-- [choerodon-cluster-agent](https://github.com/choerodon/choerodon-cluster-agent) - Choerodon的持续交付，通过活动连接的部署管道以及与Kubernetes集群直接交互（例如集群状态检查，应用程序环境状态检查，更新等）的核心组件。
-- [devops-service](https://github.com/choerodon/devops-service) - DevOps Service是 Choerodon的核心服务。集成了多个开源工具，以此形成了计划、编码、测试、部署、运维以及监控的DevOps闭环。
+- [choerodon-ui](https://github.com/open-hand/choerodon-ui)  - 基于 Ant Design Components 实现谷歌的 Material Design 的 React 组件，用于开发和服务于企业级后台产品。
+- [choerodon-front](https://github.com/open-hand/choerodon-front)  - 这个前端服务是一个联合体，包含了choerodon-front-base、choerodon-front-agile、choerodon-front-devops、choerodon-front-test-manager等前端服务。
+- [agile-service](https://github.com/open-hand/agile-service) - 该服务是Choerodon的敏捷管理模块，是猪齿鱼平台的核心服务，它的主要功能包括敏捷流程管理，包括问题管理、待办事项、发布版本、活跃冲刺、模块管理、报告等。
+- [test-manager-service](https://github.com/open-hand/test-manager-service) - 该服务是Choerodon的测试管理模块。它的主要功能包括测试用例管理、测试循环、测试报表分析、自动化测试等。
+- [knowledgebase-service](https://github.com/open-hand/knowledgebase-service) - 该服务是Choerodon的知识管理模块，它的主要功能包括创建知识、编辑知识、导航、链接、搜索等。
+- [choerodon-cluster-agent](https://github.com/open-hand/choerodon-cluster-agent) - Choerodon的持续交付，通过活动连接的部署管道以及与Kubernetes集群直接交互（例如集群状态检查，应用程序环境状态检查，更新等）的核心组件。
+- [devops-service](https://github.com/open-hand/devops-service) - DevOps Service是 Choerodon的核心服务。集成了多个开源工具，以此形成了计划、编码、测试、部署、运维以及监控的DevOps闭环。
 
 
 ## 演示环境
@@ -75,7 +90,7 @@ Choerodon 微服务开发框架的开发流程。
 
 ## 参与贡献
 
-我们欢迎您的参与产品设计和社区生态建设，如果您有任何反馈意见，可直接至论坛[发帖](https://forum.choerodon.io/)。如果您想参与开发，请阅读[贡献文档](https://github.com/choerodon/choerodon/blob/master/CONTRIBUTING.md)并提交请求请求。
+我们欢迎您的参与产品设计和社区生态建设，如果您有任何反馈意见，可直接至论坛[发帖](https://forum.choerodon.io/)。如果您想参与开发，请阅读[贡献文档](https://github.com/open-hand/choerodon/blob/master/CONTRIBUTING.md)并提交请求请求。
 
 ## 支持
 
