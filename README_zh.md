@@ -22,7 +22,7 @@ Choerodon提供：
 
 - [运营](http://choerodon.io/zh/docs/user-guide/report/) -汇集辅助项目进行管理的各种报表，多维度展示项目进展详情和问题。包含了敏捷报表（累积流量图、燃尽图等）、DevOps报表（代码提交图、代码质量图等）、测试报表。
 
-- [**微服务框架**](http://choerodon.io/zh/docs/development-guide/) - 基于汉得微服务技术平台HZERO的微服务架构，使用此开发框架，用户可以轻松构建应用服务。
+- [微服务框架](http://choerodon.io/zh/docs/development-guide/) - 基于汉得微服务技术平台HZERO的微服务架构，使用此开发框架，用户可以轻松构建应用服务。
 
 另外，您可以查看Choerodon的屏幕快照以最直观地了解Choerodon，还可以访问[Choerodon](https://choerodon.io)的网站。
 
