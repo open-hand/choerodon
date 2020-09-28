@@ -30,7 +30,7 @@ Choerodon provides:
 
 - [**Operation**](http://choerodon.io/zh/docs/user-guide/report/) -Various reports that auxiliary the management of the project are collected, and display project progress details and problems in multiple dimensions. Contain agile reports (cumulative flow diagram, burndown chart， etc.), DevOps reports (code submission chart, code quality chart, etc.), test report.
 
-- [**Microservice Development**](http://choerodon.io/zh/docs/development-guide/) - Choerodon provides a complete microservice development framework of Spring Cloud-based,with this development framework user can easily build application services.
+- [**Microservice framework**](http://choerodon.io/zh/docs/development-guide/) - Microservice framework based on microservice technology platform hzero,with this development framework user can easily build application services.
 
 Also, you can view the [screenshots of Choerodon](SCREENSHOT.md) to have a most intuitive understanding of Choerodon, and you can visit the website of Choerodon [choerodon.io](http://choerodon.io/)
 
