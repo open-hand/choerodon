@@ -1,0 +1,62 @@
+name: sync images
+on:
+  schedule:
+    - cron: '0 */1 * * *'
+jobs:
+  aliyun-to-dockerhub:
+    runs-on: ubuntu-20.04
+    container: setzero/images-sync:0.3.1
+    env:
+      TO_USERNAME: ${{ secrets.DOCKERHUB_USERNAME }}
+      TO_PASSWORD: ${{ secrets.DOCKERHUB_TOKEN }}
+    steps:
+      - name: sync dockerhub images
+        run: |
+          cat << EOF >config.yaml
+          from:
+            registry: https://registry.cn-shanghai.aliyuncs.com
+          to: 
+            registry: https://registry-1.docker.io
+          names:
+            - c7n/cibase
+            - c7n/javabase
+            - c7n/frontbase
+            - c7n/mysql-client
+            - c7n/choerodon-front
+            - c7n/devops-service
+            - c7n/gitlab-service
+            - c7n/workflow-service
+            - c7n/choerodon-cluster-agent
+            - c7n/choerodon-register
+            - c7n/choerodon-platform
+            - c7n/choerodon-admin
+            - c7n/choerodon-iam
+            - c7n/choerodon-asgard
+            - c7n/choerodon-swagger
+            - c7n/choerodon-gateway
+            - c7n/choerodon-oauth
+            - c7n/choerodon-monitor
+            - c7n/choerodon-file
+            - c7n/choerodon-message
+            - c7n/choerodon-front-hzero
+            - c7n/api-gateway
+            - c7n/asgard-service
+            - c7n/file-service
+            - c7n/base-service
+            - c7n/manager-service
+            - c7n/notify-service
+            - c7n/oauth-server
+            - c7n/go-register-server
+            - c7n/agile-service
+            - c7n/elasticsearch-kb
+            - c7n/test-manager-service
+            - c7n/knowledgebase-service
+            - c7n/code-repo-service
+            - c7n/prod-repo-service
+          replace:
+          - old: c7n
+            new: choerodon
+          rules:
+            - '.*'
+          EOF
+          sync-images --config config.yaml
