@@ -36,14 +36,32 @@ Also, you can view the [screenshots of Choerodon](SCREENSHOT.md) to have a most 
 
 ## Component relationship list
 ```
-└─ choerodon-parent                                CHOERODON Father component
-    ├─ hzero-parent                                HZERO Father component
-    └─ choerodon-starter-parent                    Generic development parent component
-        ├─ choerodon-gitlab4j-api                  gitlab api component
-        ├─ choerodon-tool-liquibase                liquibase Initialize component
-        │  └─ hzero-installer                      hzero Initialize component 
-        ├─ choerodon-starter-core                  core component
-        └─ choerodon-starter-asgard                asgard component
+└─ choerodon-parent                                CHOERODON parent
+    ├─ choerodon-register                                eureka server
+    ├─ choerodon-gateway                                 gateway service
+    ├─ choerodon-swagger                                 swagger service
+    ├─ choerodon-admin                                   platform administration service
+    ├─ choerodon-oauth                                   oauth service
+    ├─ choerodon-iam                                     iam service
+    ├─ choerodon-platform                                platform management
+    ├─ choerodon-file                                    file service
+    ├─ choerodon-monitor                                 monitor service
+    ├─ choerodon-message                                 message service
+    ├─ agile-service                                     
+    ├─ knowledgebase-service                             
+    ├─ test-manager-service                              
+    ├─ devops-service                                    devops service
+    ├─ workflow-service                                  workflow
+    ├─ gitlab-service                                    gitlab service
+    ├─ hrds-prod-repo                                    production repository service
+    ├─ hrds-code-repo                                    code repository service
+    ├─ hzero-parent                                      hzero parent
+    └─ choerodon-starter-parent                          common develop dependency parent
+        ├─ choerodon-gitlab4j-api                             choerodon gitlab api
+        ├─ choerodon-tool-liquibase                           liquibase initialization tool 
+        │  └─ hzero-installer                                 hzero initialization tool
+        ├─ choerodon-starter-core                             common helper
+        └─ choerodon-starter-asgard                           asgard client
 ```
 For detailed component information on HZERO-PARENT，see[HZERO](https://github.com/open-hand/hzero.git).
 
