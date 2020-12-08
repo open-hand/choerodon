@@ -29,13 +29,31 @@ Choerodon提供：
 ## 组件关系列表
 ```
 └─ choerodon-parent                                CHOERODON父依赖
-    ├─ hzero-parent                                HZERO父依赖
-    └─ choerodon-starter-parent                    通用开发父组件
-        ├─ choerodon-gitlab4j-api                  gitlab api组件
-        ├─ choerodon-tool-liquibase                liquibase初始化组件 
-        │  └─ hzero-installer                      hzero初始化工具 
-        ├─ choerodon-starter-core                  辅助核心开发组件 
-        └─ choerodon-starter-asgard                asgard分布式事务组件
+    ├─ choerodon-register                                注册中心服务
+    ├─ choerodon-gateway                                 网关服务
+    ├─ choerodon-swagger                                 swagger服务
+    ├─ choerodon-admin                                   平台治理服务
+    ├─ choerodon-oauth                                   认证服务
+    ├─ choerodon-iam                                     IAM服务
+    ├─ choerodon-platform                                平台管理服务
+    ├─ choerodon-file                                    文件服务
+    ├─ choerodon-monitor                                 监控服务
+    ├─ choerodon-message                                 消息服务
+    ├─ agile-service                                     敏捷服务
+    ├─ knowledgebase-service                             知识服务
+    ├─ test-manager-service                              测试服务
+    ├─ devops-service                                    devops服务
+    ├─ workflow-service                                  工作流服务
+    ├─ gitlab-service                                    gitlab服务
+    ├─ hrds-prod-repo                                    制品库服务
+    ├─ hrds-code-repo                                    代码库服务
+    ├─ hzero-parent                                      HZERO父依赖
+    └─ choerodon-starter-parent                          通用开发父组件
+        ├─ choerodon-gitlab4j-api                             gitlab api组件
+        ├─ choerodon-tool-liquibase                           liquibase初始化组件 
+        │  └─ hzero-installer                                 hzero初始化工具 
+        ├─ choerodon-starter-core                             辅助核心开发组件 
+        └─ choerodon-starter-asgard                           asgard分布式事务组件
 ```
 欲获取HZERO-PARENT详细的组件信息，可参考[HZERO](https://github.com/open-hand/hzero.git)
 
