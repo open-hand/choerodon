@@ -1,7 +1,7 @@
 name: sync images
 on:
   schedule:
-    - cron: '0 */1 * * *'
+    - cron: '0 */12 * * *'
 jobs:
   aliyun-to-dockerhub:
     runs-on: ubuntu-20.04
