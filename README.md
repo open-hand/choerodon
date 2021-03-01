@@ -5,11 +5,11 @@ Tips: We welcome your input! If you have feedback, please [submit an topic](http
 
 And you can also [sign up Choerodon](https://choerodon.com.cn/#/base/register-organization) and kickstart your journey.
 
-# Choerodon - Open Source Multi-Cloud Integrated Platform
+# Choerodon - Open source whole value chain multi-cloud agile collaboration platform
 
 ![](img/choerodon-community.png)
 
-Choerodon is an open source mult-cloud integrated platform, which is built on open source technologies, including [Kubernetes](https://kubernetes.io/), [Istio](https://istio.io/), [knative](https://pivotal.io/knative), [Gitlab](https://about.gitlab.com/) and [Spring Cloud](https://spring.io/projects/spring-cloud), to enable integration of local and cloud environments and achieve the consistency of enterprise cloud/hybrid cloud environments. By providing Lean-Agile, continuous delivery, container environments, microservices, DevOps, and other capabilities, the platform helps organizations to manage applications lifecycle, and deliver business value rapidly and frequently.
+Choerodon is an Open source whole value chain multi-cloud agile collaboration platform, which is built on open source technologies, including [Kubernetes](https://kubernetes.io/), [Istio](https://istio.io/), [knative](https://pivotal.io/knative), [Gitlab](https://about.gitlab.com/) and [Spring Cloud](https://spring.io/projects/spring-cloud), to enable integration of local and cloud environments and achieve the consistency of enterprise cloud/hybrid cloud environments. By providing Lean-Agile, continuous delivery, container environments, microservices, DevOps, and other capabilities, the platform helps organizations to manage applications lifecycle, and deliver business value rapidly and frequently.
 
 
 Choerodon provides:
