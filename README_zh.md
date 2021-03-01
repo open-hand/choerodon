@@ -1,8 +1,8 @@
 简体中文 | [English](./README.md) | [官网](http://choerodon.io) | [文档](http://choerodon.io/zh/docs/) | [博客](http://choerodon.io/zh/blog/) | [社区](http://choerodon.io/zh/community/) · [论坛](http://forum.choerodon.io) | [案例](http://choerodon.io/zh/case-studies/) | [Screenshots](./SCREENSHOT.md) | [Roadmap](./ROADMAP.md) | [changelog](./changelogs/)
 
-# Choerodon-开源多云技术平台
+# Choerodon-开源全价值链多云敏捷协作平台
 
-Choerodon猪齿鱼是一个开源多云技术平台，是基于开源技术Kubernetes，Istio，knative，Gitlab，Spring Cloud来实现本地和云端环境的集成，实现企业多云/混合云应用环境的一致性。平台通过提供精益敏捷、持续交付、容器环境、微服务、DevOps等能力来帮助组织团队来完成软件的生命周期管理，从而更快、更频繁地交付更稳定的软件。
+Choerodon猪齿鱼开源全价值链多云敏捷协作平台，是基于开源技术Kubernetes，Istio，knative，Gitlab，Spring Cloud来实现本地和云端环境的集成，实现企业多云/混合云应用环境的一致性。平台通过提供精益敏捷、持续交付、容器环境、微服务、DevOps等能力来帮助组织团队来完成软件的生命周期管理，从而更快、更频繁地交付更稳定的软件。
 
 Choerodon提供：
 
