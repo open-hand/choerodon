@@ -1,14 +1,10 @@
 简体中文 | [English](./README.md) | [官网](http://choerodon.io) | [文档](http://choerodon.io/zh/docs/) | [博客](http://choerodon.io/zh/blog/) | [社区](http://choerodon.io/zh/community/) · [论坛](http://forum.choerodon.io) | [案例](http://choerodon.io/zh/case-studies/) | [Screenshots](./SCREENSHOT.md) | [Roadmap](./ROADMAP.md) | [changelog](./changelogs/)
 
-# Choerodon-开源全价值链多云敏捷协作平台
+# 猪齿鱼Choerodon-全场景效能平台
 
-Choerodon猪齿鱼开源全价值链多云敏捷协作平台，是基于开源技术Kubernetes，Istio，knative，Gitlab，Spring Cloud来实现本地和云端环境的集成，实现企业多云/混合云应用环境的一致性。平台通过提供精益敏捷、持续交付、容器环境、微服务、DevOps等能力来帮助组织团队来完成软件的生命周期管理，从而更快、更频繁地交付更稳定的软件。
+猪齿鱼Choerodon全场景效能平台，提供体系化方法论和协作、测试、DevOps及容器工具，帮助企业拉通需求、设计、开发、部署、测试和运营流程，一站式提高管理效率和质量。从团队协同到DevOps工具链、从平台工具到体系化方法论，猪齿鱼全面满足协同管理与工程效率需求，贯穿端到端全流程，助力团队效能更快更强更稳定。
 
-Choerodon提供：
-
-- 全面的工具链支持DevOps最佳实践，从计划，编程，构建，测试，发布和运营支持Scrum管理。
-
-- 一套基于Spring Cloud的微服务应用程序框架，可帮助公司更快，更高效地进行微服务开发。
+猪齿鱼是基于开源技术Kubernetes，Istio，knative，Gitlab，Spring Cloud来实现本地和云端环境的集成，实现企业多云/混合云应用环境的一致性。
 
 ## Choerodon的特征
 
@@ -18,13 +14,13 @@ Choerodon提供：
 
 - [测试](http://choerodon.io/zh/docs/user-guide/test/) -敏捷化的持续测试工具，可以有效地提高软件测试的效率和质量。测试管理为用户提供敏捷化的持续测试工具，包括测试用例管理、测试循环、测试分析等，可以有效地提高软件测试的效率和质量，提高测试的灵活性和可视化水平，最终减少测试时间，让用户将主要精力放到软件功能构建上。
 
-- [部署](http://choerodon.io/zh/docs/user-guide/deploy/) -流水线式多环境一键部署。用户客户可以方便地使用部署功能管理各种使用Choerodon开发部署的应用服务，包括应用启停、状态监控，以及应用服务对应的版本控制、容器管理等，同时还包括应用服务涉及到的各种资源管理，例如网络、域名、数据库服务、缓存服务等。
+- [部署](http://choerodon.io/zh/docs/user-guide/deploy/) -流水线式多环境一键部署。用户客户可以方便地使用部署功能管理各种使用猪齿鱼开发部署的应用服务，包括应用启停、状态监控，以及应用服务对应的版本控制、容器管理等，同时还包括应用服务涉及到的各种资源管理，例如网络、域名、数据库服务、缓存服务等。
 
 - [运营](http://choerodon.io/zh/docs/user-guide/report/) -汇集辅助项目进行管理的各种报表，多维度展示项目进展详情和问题。包含了敏捷报表（累积流量图、燃尽图等）、DevOps报表（代码提交图、代码质量图等）、测试报表。
 
 - [微服务框架](http://choerodon.io/zh/docs/development-guide/) - 基于汉得微服务技术平台HZERO的微服务架构，使用此开发框架，用户可以轻松构建应用服务。
 
-另外，您可以查看Choerodon的屏幕快照以最直观地了解Choerodon，还可以访问[Choerodon](https://choerodon.io)的网站。
+另外，您可以查看猪齿鱼的屏幕快照以最直观地了解猪齿鱼，还可以访问[猪齿鱼](https://choerodon.io)的网站。
 
 ## 组件关系列表
 ```
@@ -59,9 +55,9 @@ Choerodon提供：
 
 ## 安装
 
-请遵循[安装文档](http://choerodon.io/zh/docs/installation-configuration/)以安装Choerodon。
+请遵循[安装文档](http://choerodon.io/zh/docs/installation-configuration/)以安装猪齿鱼。
 
-## 开始使用Choerodon
+## 开始使用猪齿鱼
 
 有关操作手册，请[阅读文档](http://choerodon.io/zh/docs/user-guide/)。
 
@@ -69,17 +65,17 @@ Choerodon提供：
 
 ## 开始开发
 
-Choerodon 微服务开发框架的开发流程。
+猪齿鱼微服务开发框架的开发流程。
 
-[基础开发手册](http://choerodon.io/zh/docs/development-guide/basic/) 介绍了使用Choerodon使用到的基础组件，包括如何从使用Kubernetes的yaml部署转型到使用helm chart 进行部署等一系列入门教程。
+[基础开发手册](http://choerodon.io/zh/docs/development-guide/basic/) 介绍了使用猪齿鱼使用到的基础组件，包括如何从使用Kubernetes的yaml部署转型到使用helm chart 进行部署等一系列入门教程。
 
 [前端开发手册](http://choerodon.io/zh/docs/development-guide/front/) 介绍如何开发新的页面，如何建立并开发新的模块和系统平台的相关配置项。
 
 [后端开发手册](http://choerodon.io/zh/docs/development-guide/backend/) 介绍基于开发的基本工具与其具体安装配置。通过此章节，用户可完成基本开发环境的搭建。
 
-## Choerodon的组成
+## 猪齿鱼的组成
 
-该存储库包含Choerodon文档的源代码。如果您要查找单个组件，则它们位于自己的存储库中。
+该存储库包含猪齿鱼文档的源代码。如果您要查找单个组件，则它们位于自己的存储库中。
 
 - **choerodon-starter** [[GitHub]](https://github.com/open-hand/choerodon-starters)|[[Gitee]](https://gitee.com/open-hand/choerodon-starters) - 是Choerodon开发的工具包，提供了一些开发过程中使用的基本依赖项。
 - **choerodon-framework** [[GitHub]](https://github.com/open-hand/choerodon-framework)|[[Gitee]](https://gitee.com/open-hand/choerodon-framework) - 是Choerodon微服务框架。
@@ -113,7 +109,7 @@ Choerodon 微服务开发框架的开发流程。
 
 ## 演示环境
 
-您还可以体验Choerodon的[演示环境](https://choerodon.com.cn/#/iam/register-organization)。
+您还可以体验猪齿鱼的[演示环境](https://choerodon.com.cn/#/iam/register-organization)。
 
 ## 参与贡献
 
