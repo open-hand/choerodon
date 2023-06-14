@@ -17,7 +17,13 @@ Choerodon provides:
 - A comprehensive tool chain supporting DevOps best practices, supporting Scrum management from planning, programming, building, testing, publishing, and operations.
 
 - A suite of Spring Cloud-based microservice application frameworks to help companies become faster and more efficient for microservice development.
-    
+
+Choerodon 2.0: Open source with new capabilities for greater availability and stability! Choerodon 2.0 brings new capabilities for open source code management, artifact library management, CI/CD pipeline, container management, environment resources, application deployment, and more to provide greater availability and stability. Although this release does not include project management, test management, knowledge base etc. you can sign up for a trial environment to experience the project collaboration management features.
+
+It should be noted that Choerodon CE 2.0 does not support upgrades from v1.1. However, we sincerely hope that you can install Choerodon CE 2.0 and experience the excellent performance and functionality brought by Choerodon 2.0. Looking forward to your participation and feedback!
+
+Choerodon 2.0 brings you a brand new open source experience! 
+
 ## The feature of Choerodon 
   
 - [**Collaboration(Enterprise Edition)**](https://zknow.com/choerodon/#cooperation) - Combine Lean-Agile to manage business requirements and tasks to create an efficient collaborative ecosystem. Provides collaboration tools such as worklist, story map, and knowledge management. It is a value chain that runs through development, test, and deployment. It promotes communication among team members, reduces project management costs, and improves communication and collaboration efficiency.
