@@ -53,7 +53,7 @@ Also, you can view the [screenshots of Choerodon](SCREENSHOT.md) to have a most 
     ├─ choerodon-file                                    file service
     ├─ choerodon-monitor                                 monitor service
     ├─ choerodon-message                                 message service
-    ├─ devops-service                                    devops service
+    ├─ devops-service-business                           devops service
     ├─ workflow-service                                  workflow
     ├─ gitlab-service                                    gitlab service
     ├─ hrds-prod-repo                                    production repository service
@@ -106,7 +106,7 @@ This repository contains the source code for Choerodon documentation. If you're 
 - **choerodon-asgard** [[GitHub]](https://github.com/open-hand/choerodon-asgard)|[[Gitee]](https://gitee.com/open-hand/choerodon-asgard)  - This service is Choerodon's distributed timing task and distributed transaction management service.
 - **choerodon-monitor** [[GitHub]](https://github.com/open-hand/choerodon-monitor)|[[Gitee]](https://gitee.com/open-hand/choerodon-monitor)  - This service is Choerodon's audit monitoring service and provides monitoring audit capabilities, including data audit and operational audit.
 
-- **devops-service** [[GitHub]](https://github.com/open-hand/devops-service)|[[Gitee]](https://gitee.com/open-hand/devops-service) - - DevOps Service is the core service of Choerodon. Integrated several open source tools to automate the process of planning, coding, building, testing, and deployment, operation, monitoring.
+- **devops-service-business** [[GitHub]](https://github.com/open-hand/devops-service-business)|[[Gitee]](https://gitee.com/open-hand/devops-service-business) - - DevOps Service is the core service of Choerodon. Integrated several open source tools to automate the process of planning, coding, building, testing, and deployment, operation, monitoring.
 
 - **gitlab-service** [[GitHub]](https://github.com/open-hand/gitlab-service)|[[Gitee]](https://gitee.com/open-hand/gitlab-service) - The service interacts with Gitlab by introducing an external Java client. This client handles Gitlab requests from other services by directly invoking the API provided by Gitlab.
 

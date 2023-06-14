@@ -42,7 +42,7 @@
     ├─ choerodon-file                                    文件服务
     ├─ choerodon-monitor                                 监控服务
     ├─ choerodon-message                                 消息服务
-    ├─ devops-service                                    devops服务
+    ├─ devops-service-business                           devops服务
     ├─ workflow-service                                  工作流服务
     ├─ gitlab-service                                    gitlab服务
     ├─ hrds-prod-repo                                    制品库服务
@@ -94,7 +94,7 @@
 - **choerodon-iam** [[GitHub]](https://github.com/open-hand/choerodon-iam)|[[Gitee]](https://gitee.com/open-hand/choerodon-iam)  - 该服务是Choerodon的核心后端服务，具有用户、角色、权限、组织、项目、密码策略、客户端、菜单、图标、多语言等管理功能，支持通过LDAP导入第三方用户。
 - **choerodon-asgard** [[GitHub]](https://github.com/open-hand/choerodon-asgard)|[[Gitee]](https://gitee.com/open-hand/choerodon-asgard)  - 该服务是Choerodon的分布式定时任务及分布式事务管理服务。
 - **choerodon-monitor** [[GitHub]](https://github.com/open-hand/choerodon-monitor)|[[Gitee]](https://gitee.com/open-hand/choerodon-monitor)  - 该服务是Choerodon的审计监控服务，提供监控审计功能，包括数据审计和操作审计。
-- **devops-service** [[GitHub]](https://github.com/open-hand/devops-service)|[[Gitee]](https://gitee.com/open-hand/devops-service) - DevOps Service是 Choerodon的核心服务。集成了多个开源工具，以此形成了计划、编码、测试、部署、运维以及监控的DevOps闭环。
+- **devops-service-business** [[GitHub]](https://github.com/open-hand/devops-service-business)|[[Gitee]](https://gitee.com/open-hand/devops-service-business) - DevOps Service是 Choerodon的核心服务。集成了多个开源工具，以此形成了计划、编码、测试、部署、运维以及监控的DevOps闭环。
 - **gitlab-service** [[GitHub]](https://github.com/open-hand/gitlab-service)|[[Gitee]](https://gitee.com/open-hand/gitlab-service) - 该服务通过引入外部java客户端与Gitlab进行交互。该客户端通过直接调用Gitlab提供的api，处理来自其他服务的Gitlab请求。
 - **workflow-service** [[GitHub]](https://github.com/open-hand/workflow-service)|[[Gitee]](https://gitee.com/open-hand/workflow-service) - 该服务是基于Activiti7搭建的工作流服务，支持动态灵活地创建流程，启动流程、监控流程以及管理流程
 
