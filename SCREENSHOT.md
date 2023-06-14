@@ -35,8 +35,4 @@ Screenshots of various Choerodon views:
 ## Instance View:
 ![](img/instance.png)
 
-## Container View:
-![](img/container.png)
-
-
 

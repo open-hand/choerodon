@@ -47,10 +47,6 @@ jobs:
             - c7n/notify-service
             - c7n/oauth-server
             - c7n/go-register-server
-            - c7n/agile-service
-            - c7n/elasticsearch-kb
-            - c7n/test-manager-service
-            - c7n/knowledgebase-service
             - c7n/code-repo-service
             - c7n/prod-repo-service
           replace:

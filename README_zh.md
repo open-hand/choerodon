@@ -1,26 +1,28 @@
-简体中文 | [English](./README.md) | [官网](http://choerodon.io) | [文档](http://choerodon.io/zh/docs/) | [博客](http://choerodon.io/zh/blog/) | [社区](http://choerodon.io/zh/community/) · [论坛](http://forum.choerodon.io) | [案例](http://choerodon.io/zh/case-studies/) | [Screenshots](./SCREENSHOT.md) | [Roadmap](./ROADMAP.md) | [changelog](./changelogs/)
+简体中文 | [English](./README.md) | [官网](https://zknow.com/choerodon/) | [文档](https://support.yqcloud.com/#/knowledge/public/407850582201335808/web_c7n?tenantId=228549383619211264&version=V2.0.0&menu=space&spaceId=407850582201335808) | [博客](https://zknow.com/choerodon/blog/choerodon-name/) | [社区](http://choerodon.io/zh/community/) · [论坛](https://openforum.hand-china.com/c/33-category/33) | [案例](https://zknow.com/choerodon/classic) | [Screenshots](./SCREENSHOT.md) | [Roadmap](./ROADMAP.md) | [changelog](./changelogs/)
 
-# 猪齿鱼Choerodon-全场景效能平台
+# 猪齿鱼Choerodon-数智化开发管理平台
 
-猪齿鱼Choerodon全场景效能平台，提供体系化方法论和协作、测试、DevOps及容器工具，帮助企业拉通需求、设计、开发、部署、测试和运营流程，一站式提高管理效率和质量。从团队协同到DevOps工具链、从平台工具到体系化方法论，猪齿鱼全面满足协同管理与工程效率需求，贯穿端到端全流程，助力团队效能更快更强更稳定。
+猪齿鱼Choerodon数智化开发管理平台，提供体系化方法论和协作、测试、DevOps及容器工具，帮助企业拉通需求、设计、开发、部署、测试和运营流程，一站式提高管理效率和质量。从团队协同到DevOps工具链、从平台工具到体系化方法论，猪齿鱼全面满足协同管理与工程效率需求，贯穿端到端全流程，助力团队效能更快更强更稳定。
 
 猪齿鱼是基于开源技术Kubernetes，Istio，knative，Gitlab，Spring Cloud来实现本地和云端环境的集成，实现企业多云/混合云应用环境的一致性。
 
 ## Choerodon的特征
 
-- [协作](http://choerodon.io/zh/docs/user-guide/cooperation/) -结合精益敏捷对业务需求、工作任务进行管理，打造高效协作生态。提供工作列表、故事地图、知识管理等协作工具，是贯穿开发、测试、部署的价值链，促进团队成员沟通交流，降低项目管理成本，提高沟通协作效率。
+- [协作(商业版)](https://zknow.com/choerodon/#cooperation) -结合精益敏捷对业务需求、工作任务进行管理，打造高效协作生态。提供工作列表、故事地图、知识管理等协作工具，是贯穿开发、测试、部署的价值链，促进团队成员沟通交流，降低项目管理成本，提高沟通协作效率。
 
-- [开发](http://choerodon.io/zh/docs/user-guide/development/) -提供迭代规划和持续集成的流水线，帮助规范应用服务开发，实现快速迭代。以DevOps理念为指引，结合精益看板和Gitlab的分支管理，提供持续集成的流水线，缩短应用服务开发周期，同时提高团队效率，高效频繁向测试团队或者用户交付软件新版本。
+- [项目群(商业版)](https://zknow.com/choerodon/#project_group) -在规模化敏捷管理中，主要应用了SAFe的团队层和项目群层概念进行规模化敏捷实践。我们将多个敏捷团队组建成一个项目群，由项目群的所有者统一管理并规划。制定开发节奏（迭代周期）、开发内容等，项目群中的任何项目都在同一个节奏上进行，从而提升产品开发交付周期。
 
-- [测试](http://choerodon.io/zh/docs/user-guide/test/) -敏捷化的持续测试工具，可以有效地提高软件测试的效率和质量。测试管理为用户提供敏捷化的持续测试工具，包括测试用例管理、测试循环、测试分析等，可以有效地提高软件测试的效率和质量，提高测试的灵活性和可视化水平，最终减少测试时间，让用户将主要精力放到软件功能构建上。
+- [开发](https://zknow.com/choerodon/#development) -提供迭代规划和持续集成的流水线，帮助规范应用服务开发，实现快速迭代。以DevOps理念为指引，结合精益看板和Gitlab的分支管理，提供持续集成的流水线，缩短应用服务开发周期，同时提高团队效率，高效频繁向测试团队或者用户交付软件新版本。
 
-- [部署](http://choerodon.io/zh/docs/user-guide/deploy/) -流水线式多环境一键部署。用户客户可以方便地使用部署功能管理各种使用猪齿鱼开发部署的应用服务，包括应用启停、状态监控，以及应用服务对应的版本控制、容器管理等，同时还包括应用服务涉及到的各种资源管理，例如网络、域名、数据库服务、缓存服务等。
+- [部署](https://zknow.com/choerodon/#deploy) -流水线式多环境一键部署。用户客户可以方便地使用部署功能管理各种使用猪齿鱼开发部署的应用服务，包括应用启停、状态监控，以及应用服务对应的版本控制、容器管理等，同时还包括应用服务涉及到的各种资源管理，例如网络、域名、数据库服务、缓存服务等。
 
-- [运营](http://choerodon.io/zh/docs/user-guide/report/) -汇集辅助项目进行管理的各种报表，多维度展示项目进展详情和问题。包含了敏捷报表（累积流量图、燃尽图等）、DevOps报表（代码提交图、代码质量图等）、测试报表。
+- [测试(商业版)](https://zknow.com/choerodon/#test) -敏捷化的持续测试工具，可以有效地提高软件测试的效率和质量。测试管理为用户提供敏捷化的持续测试工具，包括测试用例管理、测试计划管理、测试执行管理、缺陷管理、测试报告管理，支持手工测试并提供API测试、性能测试、流量回归测试、UI测试等自动化测试能力，测试任务还可嵌入开发流水线，持续测试有效保障产品质量。
 
-- [微服务框架](http://choerodon.io/zh/docs/development-guide/) - 基于汉得微服务技术平台HZERO的微服务架构，使用此开发框架，用户可以轻松构建应用服务。
+- [运营](https://zknow.com/zh/docs/user-guide/report/) -汇集辅助项目进行管理的各种报表，多维度展示项目进展详情和问题。包含了敏捷报表（累积流量图、燃尽图等）、DevOps报表（代码提交图、代码质量图等）、测试报表。
 
-另外，您可以查看猪齿鱼的屏幕快照以最直观地了解猪齿鱼，还可以访问[猪齿鱼](https://choerodon.io)的网站。
+- [微服务框架](https://zknow.com/zh/docs/development-guide/) - 基于汉得微服务技术平台HZERO的微服务架构，使用此开发框架，用户可以轻松构建应用服务。
+
+另外，您可以查看猪齿鱼的屏幕快照以最直观地了解猪齿鱼，还可以访问[猪齿鱼](https://zknow.com/choerodon/)的网站。
 
 ## 组件关系列表
 ```
@@ -35,9 +37,6 @@
     ├─ choerodon-file                                    文件服务
     ├─ choerodon-monitor                                 监控服务
     ├─ choerodon-message                                 消息服务
-    ├─ agile-service                                     敏捷服务
-    ├─ knowledgebase-service                             知识服务
-    ├─ test-manager-service                              测试服务
     ├─ devops-service                                    devops服务
     ├─ workflow-service                                  工作流服务
     ├─ gitlab-service                                    gitlab服务
@@ -55,23 +54,23 @@
 
 ## 安装
 
-请遵循[安装文档](http://choerodon.io/zh/docs/installation-configuration/)以安装猪齿鱼。
+请遵循[安装文档](https://support.yqcloud.com/#/knowledge/public/407850582201335808/web_c7n?tenantId=228549383619211264&version=V2.0.0&menu=folder&folderId=444097926325235712)以安装猪齿鱼。
 
 ## 开始使用猪齿鱼
 
-有关操作手册，请[阅读文档](http://choerodon.io/zh/docs/user-guide/)。
+有关操作手册，请[阅读文档](https://support.yqcloud.com/#/knowledge/public/407850582201335808/web_c7n?tenantId=228549383619211264&version=V2.0.0&menu=folder&folderId=444160602170609664)。
 
-如有任何疑问，您可以在[论坛](https://forum.choerodon.io/)中发帖。
+如有任何疑问，您可以在[论坛](https://openforum.hand-china.com/c/33-category/33)中发帖。
 
 ## 开始开发
 
 猪齿鱼微服务开发框架的开发流程。
 
-[基础开发手册](http://choerodon.io/zh/docs/development-guide/basic/) 介绍了使用猪齿鱼使用到的基础组件，包括如何从使用Kubernetes的yaml部署转型到使用helm chart 进行部署等一系列入门教程。
+[基础开发手册](https://support.yqcloud.com/#/knowledge/public/407850582201335808/web_c7n?tenantId=228549383619211264&version=V2.0.0&menu=folder&folderId=444098192780972032) 介绍了使用猪齿鱼使用到的基础组件，包括如何从使用Kubernetes的yaml部署转型到使用helm chart 进行部署等一系列入门教程。
 
-[前端开发手册](http://choerodon.io/zh/docs/development-guide/front/) 介绍如何开发新的页面，如何建立并开发新的模块和系统平台的相关配置项。
+[前端开发手册](https://support.yqcloud.com/#/knowledge/public/407850582201335808/web_c7n?tenantId=228549383619211264&version=V2.0.0&menu=knowledge&knowledgeId=444098189316468736) 介绍如何开发新的页面，如何建立并开发新的模块和系统平台的相关配置项。
 
-[后端开发手册](http://choerodon.io/zh/docs/development-guide/backend/) 介绍基于开发的基本工具与其具体安装配置。通过此章节，用户可完成基本开发环境的搭建。
+[后端开发手册](https://support.yqcloud.com/#/knowledge/public/407850582201335808/web_c7n?tenantId=228549383619211264&version=V2.0.0&menu=knowledge&knowledgeId=444098186002984960) 介绍基于开发的基本工具与其具体安装配置。通过此章节，用户可完成基本开发环境的搭建。
 
 ## 猪齿鱼的组成
 
@@ -94,10 +93,6 @@
 - **gitlab-service** [[GitHub]](https://github.com/open-hand/gitlab-service)|[[Gitee]](https://gitee.com/open-hand/gitlab-service) - 该服务通过引入外部java客户端与Gitlab进行交互。该客户端通过直接调用Gitlab提供的api，处理来自其他服务的Gitlab请求。
 - **workflow-service** [[GitHub]](https://github.com/open-hand/workflow-service)|[[Gitee]](https://gitee.com/open-hand/workflow-service) - 该服务是基于Activiti7搭建的工作流服务，支持动态灵活地创建流程，启动流程、监控流程以及管理流程
 
-- **agile-service** [[GitHub]](https://github.com/open-hand/agile-service)|[[Gitee]](https://gitee.com/open-hand/agile-service) - 该服务是Choerodon的敏捷管理模块，是猪齿鱼平台的核心服务，它的主要功能包括敏捷流程管理，包括问题管理、待办事项、发布版本、活跃冲刺、模块管理、报告等。
-- **test-manager-service** [[GitHub]](https://github.com/open-hand/test-manager-service)|[[Gitee]](https://gitee.com/open-hand/test-manager-service)  - 该服务是Choerodon的测试管理模块。它的主要功能包括测试用例管理、测试循环、测试报表分析、自动化测试等。
-- **knowledgebase-service** [[GitHub]](https://github.com/open-hand/knowledgebase-service)|[[Gitee]](https://gitee.com/open-hand/knowledgebase-service) - 该服务是Choerodon的知识管理模块，它的主要功能包括创建知识、编辑知识、导航、链接、搜索等。
-
 - **code-repo-service** [[GitHub]](https://github.com/open-hand/code-repo-service)|[[Gitee]](https://gitee.com/open-hand/code-repo-service) - 该服务是代码库管理模块，通过与Gitlab集成, 提供权限管理等功能, 通过在Choerodon平台一站式管理代码库。
 - **prod-repo-service** [[GitHub]](https://github.com/open-hand/prod-repo-service)|[[Gitee]](https://gitee.com/open-hand/prod-repo-service) - 该服务是制品库模块，通过整合nexus、harbor，提供管理maven包、npm包、docker镜像等功能。
 
@@ -109,12 +104,12 @@
 
 ## 演示环境
 
-您还可以体验猪齿鱼的[演示环境](https://choerodon.com.cn/#/iam/register-organization)。
+您还可以体验猪齿鱼的[演示环境](https://choerodon.com.cn/register-organization/#/)。
 
 ## 参与贡献
 
-我们欢迎您的参与产品设计和社区生态建设，如果您有任何反馈意见，可直接至论坛[发帖](https://forum.choerodon.io/)。如果您想参与开发，请阅读[贡献文档](https://github.com/open-hand/choerodon/blob/master/CONTRIBUTING.md)并提交请求请求。
+我们欢迎您的参与产品设计和社区生态建设，如果您有任何反馈意见，可直接至论坛[发帖](https://openforum.hand-china.com/c/33-category/33)。如果您想参与开发，请阅读[贡献文档](https://github.com/open-hand/choerodon/blob/master/CONTRIBUTING.md)并提交请求请求。
 
 ## 支持
 
-如果您有任何疑问并需要我们的支持，可以以这些方式[与我们联系](http://choerodon.io/zh/community/)。
+如果您有任何疑问并需要我们的支持，可以以这些方式[与我们联系](https://zknow.com/zknow/about/contact-us)。
