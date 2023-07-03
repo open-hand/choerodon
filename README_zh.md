@@ -109,7 +109,7 @@
 
 ## 演示环境
 
-您还可以体验猪齿鱼的[演示环境](https://choerodon.com.cn/register-organization/#/)。
+您还可以体验猪齿鱼的[演示环境](https://choerodon.zknow.com/register-organization/#/)。
 
 ## 参与贡献
 

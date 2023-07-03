@@ -122,7 +122,7 @@ This repository contains the source code for Choerodon documentation. If you're 
 
 ## Demo environment
 
-And you can also experience [the demo environment of Choerodon](https://choerodon.com.cn/register-organization/#/).
+And you can also experience [the demo environment of Choerodon](https://choerodon.zknow.com/register-organization/#/).
 
 ## Contribute
 
