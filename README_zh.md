@@ -103,7 +103,7 @@
 
 - **choerodon-ui** [[GitHub]](https://github.com/open-hand/choerodon-ui)|[[Gitee]](https://gitee.com/open-hand/choerodon-ui)  - 基于 Ant Design Components 实现谷歌的 Material Design 的 React 组件，用于开发和服务于企业级后台产品。
 - **choerodon-front** [[GitHub]](https://github.com/open-hand/choerodon-front)|[[Gitee]](https://gitee.com/open-hand/choerodon-front)  - 这个前端服务是一个联合体，包含了choerodon-front-base、choerodon-front-agile、choerodon-front-devops、choerodon-front-test-manager等前端服务。
-- **choerodon-front-hzero** [[GitHub]](https://github.com/open-hand/choerodon-front)|[[Gitee]](https://gitee.com/open-hand/choerodon-front)  - 这个前端服务是choerodon与hzero融合后，部分功能移植到hzero系统的前端服务，包含了用户管理、接口、API测试等功能。
+- **choerodon-front-hzero** [[GitHub]](https://github.com/open-hand/choerodon-front-hzero)|[[Gitee]](https://gitee.com/open-hand/choerodon-front-hzero)  - 这个前端服务是choerodon与hzero融合后，部分功能移植到hzero系统的前端服务，包含了用户管理、接口、API测试等功能。
 - **choerodon-cluster-agent** [[GitHub]](https://github.com/open-hand/choerodon-cluster-agent)|[[Gitee]](https://gitee.com/open-hand/choerodon-cluster-agent) - Choerodon的持续交付，通过活动连接的部署管道以及与Kubernetes集群直接交互（例如集群状态检查，应用程序环境状态检查，更新等）的核心组件。
 
 
